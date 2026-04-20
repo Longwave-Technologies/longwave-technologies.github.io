@@ -1,16 +1,13 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useLayoutEffect } from "react";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import "./AppRouter.css";
 
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
 const Home = lazy(() => import("../pages/homePage/HomePage"));
 const Products = lazy(() => import("../pages/productPage/ProductPage"));
 const Contact = lazy(() => import("../pages/contactPage/ContactPage"));
-
-import { useLocation } from "react-router-dom";
-import { useLayoutEffect } from "react";
 
 const tabsData = [
   { label: "Products", path: "/products" },
