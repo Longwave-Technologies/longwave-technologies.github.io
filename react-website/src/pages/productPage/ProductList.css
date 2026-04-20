@@ -54,17 +54,17 @@ button {
   padding: 0.8rem;
   border: none;
   color: white;
-  background-color: #0c84f4;
+  background-color: var(--color-primary);
   top: 50%;
   font-size: 1rem;
 }
 button:hover {
-  background-color: #0464bd;
+  background-color: var(--color-primary-darker);
   transition-duration: 0.5s;
   color: white;
   transform: scale(1.07);
 }
 button:active {
-  background-color: #0b68c0;
+  background-color: var(--color-primary-dark);
   transform: scale(0.95);
 }

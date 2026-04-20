@@ -3,7 +3,7 @@
   height: 55rem;
   background-color: rgba(255, 255, 255, 0.5);
   margin: auto;
-  margin-top: 100px;
+  margin-top: var(--header-height);
   padding-top: 2rem;
 }
 .contact-description {
@@ -81,7 +81,7 @@ h3 {
   content: "";
   height: 2px;
   width: 105%;
-  background: #0c84f4;
+  background: var(--color-primary);
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -181,13 +181,13 @@ h3 {
   background-color: rgb(165, 165, 165);
 }
 .submitbtn:hover {
-  background-color: #0c84f4;
+  background-color: var(--color-primary);
   transition-duration: 0.5s;
   color: white;
   transform: scale(1.1);
 }
 .submitbtn:active {
-  background-color: #0b68c0;
+  background-color: var(--color-primary-dark);
   transform: scale(0.95);
 }
 

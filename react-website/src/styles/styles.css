@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #0c84f4;
+  --color-primary-dark: #0b68c0;
+  --color-primary-darker: #0464bd;
+  --header-height: 100px;
+  --breakpoint-mobile: 600px; /* note: cannot be used inside @media conditions */
+}
+
 @font-face {
   font-family: "Questrial";
   src: url("./font/Questrial-Regular.eot");
@@ -41,7 +49,7 @@ input {
 
 a:hover {
   cursor: pointer;
-  color: #0c84f4;
+  color: var(--color-primary);
 }
 
 @media (max-width: 600px) {
