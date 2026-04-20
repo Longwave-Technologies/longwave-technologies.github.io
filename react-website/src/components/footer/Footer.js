@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Footer.css";
 import logoFooter from "../../assets/images/logoFinal.png";
 import "../../styles/styles.css";
@@ -8,21 +8,18 @@ function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  const today = new Date();
-  const year = today.getFullYear();
+  const year = new Date().getFullYear();
   return (
     <footer className="footer">
       <Fade bottom>
         <div className="footer-content">
-          <div className="logoFooter" onClick={scrollToTop}>
+          <button className="logoFooter-btn" onClick={scrollToTop} aria-label="Scroll to top of page">
             <img
               src={logoFooter}
               className="logoFooter"
-              onClick={scrollToTop}
-              alt="logoFooter"
-              size={10}
-            ></img>
-          </div>
+              alt="Longwave Technologies"
+            />
+          </button>
           <h4>
             &copy; {year} Longwave Technologies L.I. Inc. All Rights Reserved.
           </h4>

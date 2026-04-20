@@ -19,23 +19,29 @@
   color: gray;
 }
 
-.logoFooter {
+.logoFooter-btn {
+  background: none;
+  border: none;
+  padding: 0;
   cursor: pointer;
-  transition: color 0.2s;
-  height: auto;
-  padding: 0px;
-  width: 150px;
 }
 
-.logoFooter:hover {
-  color: #00aaff;
+.logoFooter {
+  transition: opacity 0.2s;
+  height: auto;
+  width: 150px;
+  display: block;
+}
+
+.logoFooter-btn:hover .logoFooter {
+  opacity: 0.75;
 }
 
 @media (max-width: 600px) {
   .footer {
     width: 400px;
   }
-  .logoFooter {
+  .logoFooter-btn .logoFooter {
     width: 100px;
   }
 }

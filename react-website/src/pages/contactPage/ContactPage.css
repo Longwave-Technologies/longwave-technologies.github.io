@@ -1,10 +1,11 @@
 .contactForm {
   width: 50rem;
-  height: 55rem;
+  min-height: 55rem;
   background-color: rgba(255, 255, 255, 0.5);
   margin: auto;
   margin-top: var(--header-height);
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .contact-description {
   line-height: 1.4;
@@ -194,11 +195,12 @@ h3 {
 @media (max-width: 600px) {
   .contactForm {
     width: 100%;
-    height: 70rem;
+    min-height: 70rem;
     background-color: rgba(255, 255, 255, 0.5);
     margin: auto;
     margin-top: 50px;
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .form_row_with_grid {
     display: block;
