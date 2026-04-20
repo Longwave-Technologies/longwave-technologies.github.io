@@ -1,22 +1,10 @@
-import React, { useState, useEffect } from "react";
-import CopierInfo from "../../assets/images/products/copierInfo.json";
-import Category from "../../assets/images/products/productCategories.json";
+import { useState } from "react";
 import "./ProductList.css";
 
 const images = require.context("../../assets/images/products", true);
 
 const ProductList = ({ products, updatePopup }) => {
-  const [filter, setFilter] = useState("");
-  const [search, setSearch] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null);
-
-  const handleFilter = (filterValue) => {
-    setFilter(filterValue);
-  };
-
-  const handleSearch = (searchValue) => {
-    setSearch(searchValue);
-  };
 
   const handleSelectProduct = (product) => {
     updatePopup(true);
@@ -28,14 +16,7 @@ const ProductList = ({ products, updatePopup }) => {
     setSelectedProduct(null);
   };
 
-  // Filtering and searching logic
-  const filteredProducts = products.filter((product) => {
-    return (
-      (filter === "" || product.brand === filter) &&
-      (search === "" ||
-        product.brand?.toLowerCase().includes(search?.toLowerCase()))
-    );
-  });
+  const filteredProducts = products;
 
   return (
     <div className="productListContainer">

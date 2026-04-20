@@ -1,5 +1,5 @@
 import React, { Suspense, lazy, useLayoutEffect } from "react";
-import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import "./AppRouter.css";
 
 import Header from "../components/header/Header";
@@ -32,7 +32,7 @@ function AppRouter() {
         <div className="dot1"></div>
       </div>
 
-      <Router basename="/">
+      <Router>
         <Wrapper>
           <Header tabsData={tabsData} />
           <Suspense fallback={<div style={{ minHeight: "100vh" }} />}>
