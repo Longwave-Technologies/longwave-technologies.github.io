@@ -35,7 +35,7 @@ function AppRouter() {
       <Router>
         <Wrapper>
           <Header tabsData={tabsData} />
-          <Suspense fallback={<div style={{ minHeight: "100vh" }} />}>
+          <Suspense fallback={<div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }} role="status" aria-label="Loading page" />}>
             <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/products" element={<Products />} />

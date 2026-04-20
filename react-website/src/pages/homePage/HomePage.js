@@ -137,7 +137,7 @@ function HomePage() {
       </Element>
       <Fade bottom>
         <div className="brands-section">
-          <h1>Brands We Support</h1>
+          <h2>Brands We Support</h2>
           <div className="brand-imgs-section">
             <img src={canon} className="brand-imgs" alt="Canon" loading="lazy"></img>
             <img src={kyocera} className="brand-imgs" alt="Kyocera" loading="lazy"></img>
@@ -155,7 +155,7 @@ function HomePage() {
       <div className="information-section" id="About">
         <Fade bottom>
           <div>
-            <h1>Our Story</h1>
+            <h2>Our Story</h2>
             <h3 id="sub-title-text">
               We are passionate about partnering with good people and making
               their life easier

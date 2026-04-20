@@ -35,21 +35,21 @@ function ContactPage() {
                 <div className="input-data">
                   <input
                     type="text"
-                    name="name"
+                    name="first-name"
                     id="firstname-input"
                     required
                   />
                   <div className="underline" id="firstname-underline"></div>
-                  <label id="firstname-label" htmlFor="first-name">
+                  <label id="firstname-label" htmlFor="firstname-input">
                     First Name
                   </label>
                 </div>
               </div>
               <div className="form-field">
                 <div className="input-data">
-                  <input type="text" name="name" id="lastname-input" required />
+                  <input type="text" name="last-name" id="lastname-input" required />
                   <div className="underline" id="lastname-underline"></div>
-                  <label id="lastname-label" htmlFor="last-name">
+                  <label id="lastname-label" htmlFor="lastname-input">
                     Last Name
                   </label>
                 </div>
@@ -64,7 +64,7 @@ function ContactPage() {
                   required
                 />
                 <div className="underline"></div>
-                <label htmlFor="">Email</label>
+                <label htmlFor="email-address">Email</label>
               </div>
             </div>
             <div className="form_row_with_grid">
@@ -77,7 +77,7 @@ function ContactPage() {
                     required
                   />
                   <div className="underline" id="address-underline"></div>
-                  <label id="address-label" htmlFor="">
+                  <label id="address-label" htmlFor="address-input">
                     Address
                   </label>
                 </div>
@@ -86,7 +86,7 @@ function ContactPage() {
                 <div className="input-data">
                   <input type="text" name="city" id="city-input" required />
                   <div className="underline" id="city-underline"></div>
-                  <label id="city-label" htmlFor="">
+                  <label id="city-label" htmlFor="city-input">
                     City
                   </label>
                 </div>
@@ -98,9 +98,11 @@ function ContactPage() {
                   className="input-date"
                   id="state-selection"
                   name="state"
-                  required=""
+                  defaultValue=""
+                  required
+                  aria-label="State"
                 >
-                  <option value="" selected="" disabled="" id="state-option">
+                  <option value="" disabled id="state-option">
                     State
                   </option>
                   <option value="AL">Alabama</option>
@@ -166,7 +168,7 @@ function ContactPage() {
                     required
                   />
                   <div className="underline" id="zipcode-underline"></div>
-                  <label id="zipcode-label" htmlFor="">
+                  <label id="zipcode-label" htmlFor="zipcode-input">
                     Zipcode
                   </label>
                 </div>
@@ -176,7 +178,7 @@ function ContactPage() {
               <div className="input-data">
                 <input type="text" name="note" id="note" required />
                 <div className="underline"></div>
-                <label htmlFor="">Message</label>
+                <label htmlFor="note">Message</label>
               </div>
             </div>
             <input
