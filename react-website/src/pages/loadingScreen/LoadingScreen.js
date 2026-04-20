@@ -9,23 +9,11 @@ const LoadingScreen = () => {
 
   // Simulate an animation delay
   useEffect(() => {
-    // const tl = imgRef.current;
-
-    // gsap.to(tl, {introSVG});
-    console.log("animationComplete:", animationComplete);
-
     const animationTimeout = setTimeout(() => {
       setAnimationComplete(true);
-    }, 1000); // Change the time as needed
+    }, 1000);
 
-    console.log("animationComplete:", animationComplete);
-
-    return () => {
-      clearTimeout(animationTimeout);
-
-      // Clean up the animation when the component unmounts
-      // tl.kill();
-    };
+    return () => clearTimeout(animationTimeout);
   }, [animationComplete]);
 
   return (

@@ -19,3 +19,6 @@ Journal Updates/
 
 # Go workspace file
 go.work
+
+.claude
+node_modules/

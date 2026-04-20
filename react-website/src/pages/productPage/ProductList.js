@@ -21,7 +21,6 @@ const ProductList = ({ products, updatePopup }) => {
   const handleSelectProduct = (product) => {
     updatePopup(true);
     setSelectedProduct(product);
-    console.log("object:", typeof product);
   };
 
   const handleExit = () => {
@@ -48,6 +47,7 @@ const ProductList = ({ products, updatePopup }) => {
                 selectedProduct[Object.keys(selectedProduct)].image_path
               )}
               alt="pic"
+              loading="lazy"
             />
           </div>
           <div className="right-container-child">
@@ -103,7 +103,7 @@ const ProductList = ({ products, updatePopup }) => {
                 style={{ cursor: "pointer" }}
               >
                 <li>
-                  <img src={images(product.image_path)} alt="images" />
+                  <img src={images(product.image_path)} alt={`${product.brand} ${product.modelnum}`} loading="lazy" />
                 </li>
                 <li>
                   {product.brand} {product.subCategory}

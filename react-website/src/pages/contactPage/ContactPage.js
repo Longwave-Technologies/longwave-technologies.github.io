@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../../styles/styles.css";
 import "./ContactPage.css";
 import Fade from "react-reveal/Fade";
@@ -6,12 +7,19 @@ import Fade from "react-reveal/Fade";
 function ContactPage() {
   return (
     <div className="content">
+      <Helmet>
+        <title>Contact Us | Longwave Technologies</title>
+        <meta name="description" content="Get in touch with Longwave Technologies for copier sales, leasing, and repair on Long Island. Call (516)-663-0968 or submit our contact form." />
+        <meta property="og:title" content="Contact Us | Longwave Technologies" />
+        <meta property="og:description" content="Get in touch with Longwave Technologies for copier sales, leasing, and repair on Long Island. Call (516)-663-0968 or submit our contact form." />
+        <link rel="canonical" href="https://longwave-technologies.github.io/contact" />
+      </Helmet>
       <Fade bottom>
         <div className="contactForm">
           <form
             id="fs-frm"
             name="registration-form"
-            accept-charset="utf-8"
+            acceptCharset="utf-8"
             action="https://formspree.io/f/mjvqjzld"
             method="post"
           >
@@ -22,72 +30,72 @@ function ContactPage() {
               Submit the form below <br></br>or contact us at: <br></br>☎
               (516)-663-0968 <br></br>✉ longwavetechinfo@gmail.com
             </h3>
-            <div class="form_row_with_grid">
-              <div class="form-field">
-                <div class="input-data">
+            <div className="form_row_with_grid">
+              <div className="form-field">
+                <div className="input-data">
                   <input
                     type="text"
                     name="name"
                     id="firstname-input"
                     required
                   />
-                  <div class="underline" id="firstname-underline"></div>
-                  <label id="firstname-label" for="first-name">
+                  <div className="underline" id="firstname-underline"></div>
+                  <label id="firstname-label" htmlFor="first-name">
                     First Name
                   </label>
                 </div>
               </div>
-              <div class="form-field">
-                <div class="input-data">
+              <div className="form-field">
+                <div className="input-data">
                   <input type="text" name="name" id="lastname-input" required />
-                  <div class="underline" id="lastname-underline"></div>
-                  <label id="lastname-label" for="last-name">
+                  <div className="underline" id="lastname-underline"></div>
+                  <label id="lastname-label" htmlFor="last-name">
                     Last Name
                   </label>
                 </div>
               </div>
             </div>
-            <div class="form-field">
-              <div class="input-data">
+            <div className="form-field">
+              <div className="input-data">
                 <input
                   type="email"
                   name="_replyto"
                   id="email-address"
                   required
                 />
-                <div class="underline"></div>
-                <label for="">Email</label>
+                <div className="underline"></div>
+                <label htmlFor="">Email</label>
               </div>
             </div>
-            <div class="form_row_with_grid">
-              <div class="form-field">
-                <div class="input-data">
+            <div className="form_row_with_grid">
+              <div className="form-field">
+                <div className="input-data">
                   <input
                     type="text"
                     name="street"
                     id="address-input"
                     required
                   />
-                  <div class="underline" id="address-underline"></div>
-                  <label id="address-label" for="">
+                  <div className="underline" id="address-underline"></div>
+                  <label id="address-label" htmlFor="">
                     Address
                   </label>
                 </div>
               </div>
-              <div class="form-field">
-                <div class="input-data">
+              <div className="form-field">
+                <div className="input-data">
                   <input type="text" name="city" id="city-input" required />
-                  <div class="underline" id="city-underline"></div>
-                  <label id="city-label" for="">
+                  <div className="underline" id="city-underline"></div>
+                  <label id="city-label" htmlFor="">
                     City
                   </label>
                 </div>
               </div>
             </div>
-            <div class="form_row_with_grid">
-              <div class="form-field" id="state-select-div">
+            <div className="form_row_with_grid">
+              <div className="form-field" id="state-select-div">
                 <select
-                  class="input-date"
+                  className="input-date"
                   id="state-selection"
                   name="state"
                   required=""
@@ -147,28 +155,28 @@ function ContactPage() {
                   <option value="WI">Wisconsin</option>
                   <option value="WY">Wyoming</option>
                 </select>
-                <div class="underline" id="state-underline"></div>
+                <div className="underline" id="state-underline"></div>
               </div>
-              <div class="form-field">
-                <div class="input-data">
+              <div className="form-field">
+                <div className="input-data">
                   <input
                     type="text"
                     name="postal-code"
                     id="zipcode-input"
                     required
                   />
-                  <div class="underline" id="zipcode-underline"></div>
-                  <label id="zipcode-label" for="">
+                  <div className="underline" id="zipcode-underline"></div>
+                  <label id="zipcode-label" htmlFor="">
                     Zipcode
                   </label>
                 </div>
               </div>
             </div>
-            <div class="form-field">
-              <div class="input-data">
+            <div className="form-field">
+              <div className="input-data">
                 <input type="text" name="note" id="note" required />
-                <div class="underline"></div>
-                <label for="">Message</label>
+                <div className="underline"></div>
+                <label htmlFor="">Message</label>
               </div>
             </div>
             <input
@@ -177,7 +185,7 @@ function ContactPage() {
               id="email-subject"
               value="Longwave Contact Form Submission"
             />
-            <input class="submitbtn" type="submit" value="Submit" />
+            <input className="submitbtn" type="submit" value="Submit" />
           </form>
         </div>
       </Fade>

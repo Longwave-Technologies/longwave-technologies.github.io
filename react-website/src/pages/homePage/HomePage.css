@@ -1,10 +1,10 @@
 .content {
   position: relative;
-  margin-top: 100px;
+  margin-top: var(--header-height);
 }
 
 .parallax-container {
-  background-image: url("../../assets/images/home/parallax-background.png");
+  background-image: url("../../assets/images/home/parallax-background.webp");
   position: relative;
   height: 800px;
   background-attachment: fixed;
@@ -117,7 +117,7 @@ ul {
   transform: scale(0.95);
 }
 .page-curl-button h3 {
-  color: #0c84f4;
+  color: var(--color-primary);
   margin: 20px auto;
 }
 
@@ -135,7 +135,7 @@ ul {
   width: 100%; /*any relative or absolute*/
   position: relative;
   background-color: #ffffff;
-  color: #0c84f4;
+  color: var(--color-primary);
 }
 #fpc_content {
   padding: 20px 0px 20px 160px;
@@ -265,7 +265,7 @@ ul {
   height: 40px;
   top: 0;
   right: 0;
-  background-color: #0c84f4;
+  background-color: var(--color-primary);
   color: #fff;
   text-align: center;
   padding: 5px;

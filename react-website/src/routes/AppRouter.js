@@ -1,15 +1,13 @@
-import React from "react";
+import React, { Suspense, lazy, useLayoutEffect } from "react";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import "./AppRouter.css";
 
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "../pages/homePage/HomePage";
 import Header from "../components/header/Header";
-import Products from "../pages/productPage/ProductPage";
-import Contact from "../pages/contactPage/ContactPage";
 import Footer from "../components/footer/Footer";
 
-import { useLocation } from "react-router-dom";
-import { useLayoutEffect } from "react";
+const Home = lazy(() => import("../pages/homePage/HomePage"));
+const Products = lazy(() => import("../pages/productPage/ProductPage"));
+const Contact = lazy(() => import("../pages/contactPage/ContactPage"));
 
 const tabsData = [
   { label: "Products", path: "/products" },
@@ -24,30 +22,26 @@ const Wrapper = ({ children }) => {
   return children;
 };
 
-const Component = ({ title }) => {
-  return (
-    <div>
-      <p style={{ paddingTop: "150vh" }}>{title}</p>
-    </div>
-  );
-};
+
 function AppRouter() {
   return (
     <div className="app-container">
       <div className="app_background">
-        <div class="dot3"></div>
-        <div class="dot2"></div>
-        <div class="dot1"></div>
+        <div className="dot3"></div>
+        <div className="dot2"></div>
+        <div className="dot1"></div>
       </div>
 
       <Router basename="/">
         <Wrapper>
           <Header tabsData={tabsData} />
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+          <Suspense fallback={<div style={{ minHeight: "100vh" }} />}>
+            <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </Suspense>
           <Footer className="footer" />
         </Wrapper>
       </Router>
