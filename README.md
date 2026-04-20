@@ -55,5 +55,3 @@ TODO:
 You can't fix it without ejecting from CRA or upgrading react-scripts. It's harmless — dev server works fine, and these warnings never appear in a production build.
 
 The standard fix is to migrate from CRA to Vite, which is the modern replacement. That would eliminate the warning and also give you significantly faster dev startup and hot reload. Worth doing, but it's a bigger migration task.
-
-2. Fix header spacing
