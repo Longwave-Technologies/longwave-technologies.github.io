@@ -4,7 +4,7 @@
 }
 
 .parallax-container {
-  background-image: url("/parallax-background.webp");
+  background-image: url("../../assets/images/home/parallax-background.webp");
   position: relative;
   height: 800px;
   background-attachment: fixed;
