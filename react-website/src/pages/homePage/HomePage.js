@@ -34,6 +34,22 @@ function HomePage() {
         <meta property="og:title" content="Longwave Technologies | Copier & Printer Sales and Service" />
         <meta property="og:description" content="Longwave Technologies provides copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, and more." />
         <link rel="canonical" href="https://longwave-technologies.github.io/" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Longwave Technologies",
+          "description": "Copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, Toshiba, Ricoh, and more.",
+          "url": "https://longwave-technologies.github.io",
+          "telephone": "+15166630968",
+          "email": "longwavetechinfo@gmail.com",
+          "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "Long Island, New York"
+          },
+          "sameAs": ["https://longwave-technologies.github.io"],
+          "priceRange": "$$",
+          "openingHours": "Mo-Fr 09:00-17:00"
+        })}</script>
       </Helmet>
       <Fade>
         <div className="parallax-container">
