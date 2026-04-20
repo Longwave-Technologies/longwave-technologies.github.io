@@ -21,7 +21,6 @@ const ProductList = ({ products, updatePopup }) => {
   const handleSelectProduct = (product) => {
     updatePopup(true);
     setSelectedProduct(product);
-    console.log("object:", typeof product);
   };
 
   const handleExit = () => {

@@ -42,6 +42,14 @@ function HomePage() {
           "url": "https://longwave-technologies.github.io",
           "telephone": "+15166630968",
           "email": "longwavetechinfo@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "49 S",
+            "addressLocality": "Hempstead",
+            "addressRegion": "NY",
+            "postalCode": "11550",
+            "addressCountry": "US"
+          },
           "areaServed": {
             "@type": "AdministrativeArea",
             "name": "Long Island, New York"
@@ -76,7 +84,7 @@ function HomePage() {
                 <img
                   src={home_copier}
                   className="info-section-img"
-                  alt="copy img"
+                  alt="Office copier machine available for sale or lease"
                   loading="lazy"
                 ></img>
               </div>
@@ -119,7 +127,7 @@ function HomePage() {
                 <img
                   src={home_tech}
                   className="info-section-img"
-                  alt="copy img"
+                  alt="Longwave Technologies technician performing on-site copier repair"
                   loading="lazy"
                 ></img>
               </div>{" "}
@@ -160,7 +168,7 @@ function HomePage() {
               <img
                 src={oldpic}
                 className="info-section-img"
-                alt="copy img"
+                alt="Longwave Technologies founder in the early days of the business, 1991"
                 loading="lazy"
               ></img>
             </div>
@@ -195,7 +203,7 @@ function HomePage() {
               <img
                 src={about_customer}
                 className="info-section-img"
-                alt="copy img"
+                alt="Satisfied Longwave Technologies customer at their office"
                 loading="lazy"
               ></img>
             </div>
