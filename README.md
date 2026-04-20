@@ -49,8 +49,11 @@ Reference: [Beginner's Guide to Proper Git Workflow](https://medium.com/@anjulap
 - [Animated Logo Preloader](https://ihatetomatoes.net/create-css3-spinning-preloader/)
 
 TODO:
-These warnings come from inside Create React App (react-scripts) itself, not your code. CRA uses an older version of webpack-dev-server that calls deprecated middleware APIs (onAfterSetupMiddleware / onBeforeSetupMiddleware). The newer API is setupMiddlewares.
+
+1. These warnings come from inside Create React App (react-scripts) itself, not your code. CRA uses an older version of webpack-dev-server that calls deprecated middleware APIs (onAfterSetupMiddleware / onBeforeSetupMiddleware). The newer API is setupMiddlewares.
 
 You can't fix it without ejecting from CRA or upgrading react-scripts. It's harmless — dev server works fine, and these warnings never appear in a production build.
 
 The standard fix is to migrate from CRA to Vite, which is the modern replacement. That would eliminate the warning and also give you significantly faster dev startup and hot reload. Worth doing, but it's a bigger migration task.
+
+2. Fix header spacing
