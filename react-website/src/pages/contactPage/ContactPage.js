@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../../styles/styles.css";
 import "./ContactPage.css";
 import Fade from "react-reveal/Fade";
@@ -6,6 +7,13 @@ import Fade from "react-reveal/Fade";
 function ContactPage() {
   return (
     <div className="content">
+      <Helmet>
+        <title>Contact Us | Longwave Technologies</title>
+        <meta name="description" content="Get in touch with Longwave Technologies for copier sales, leasing, and repair on Long Island. Call (516)-663-0968 or submit our contact form." />
+        <meta property="og:title" content="Contact Us | Longwave Technologies" />
+        <meta property="og:description" content="Get in touch with Longwave Technologies for copier sales, leasing, and repair on Long Island. Call (516)-663-0968 or submit our contact form." />
+        <link rel="canonical" href="https://longwave-technologies.github.io/contact" />
+      </Helmet>
       <Fade bottom>
         <div className="contactForm">
           <form

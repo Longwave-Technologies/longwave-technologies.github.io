@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Helmet } from "react-helmet-async";
 import "../../styles/styles.css";
 import "./ProductPage.css";
 import Fade from "react-reveal/Fade";
@@ -89,6 +90,13 @@ function ProductPage() {
 
   return (
     <div className="content">
+      <Helmet>
+        <title>Copiers & Printers for Sale | Longwave Technologies</title>
+        <meta name="description" content="Browse our catalog of new and refurbished copiers and printers from Canon, Kyocera, Sharp, Toshiba, and more. Sales, leasing, and service on Long Island." />
+        <meta property="og:title" content="Copiers & Printers for Sale | Longwave Technologies" />
+        <meta property="og:description" content="Browse our catalog of new and refurbished copiers and printers from Canon, Kyocera, Sharp, Toshiba, and more. Sales, leasing, and service on Long Island." />
+        <link rel="canonical" href="https://longwave-technologies.github.io/products" />
+      </Helmet>
       <Fade>
         <div className={"product-container-parent"}>
           {!superParentUpdatePopup ? (

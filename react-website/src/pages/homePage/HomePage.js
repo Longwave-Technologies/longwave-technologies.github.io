@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import "../../styles/styles.css";
 import "./HomePage.css";
 import { Link, useNavigate } from "react-router-dom";
@@ -27,6 +28,13 @@ function HomePage() {
   }
   return (
     <div className="content">
+      <Helmet>
+        <title>Longwave Technologies | Copier & Printer Sales and Service</title>
+        <meta name="description" content="Longwave Technologies provides copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, and more." />
+        <meta property="og:title" content="Longwave Technologies | Copier & Printer Sales and Service" />
+        <meta property="og:description" content="Longwave Technologies provides copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, and more." />
+        <link rel="canonical" href="https://longwave-technologies.github.io/" />
+      </Helmet>
       <Fade>
         <div className="parallax-container">
           <div className="text-overlay">
