@@ -1,1074 +1,1483 @@
 [
   {
     "id": 1001,
-    "image_path": "./kyocera/MA2000w.png",
+    "image_path": "./kyocera/MA2000w.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "",
     "modelnum": "MA2000w",
     "color": "bw",
     "ppm": "21",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": "",
     "description": "The MA2000w copy, print and scan solution with speeds up to 21 ppm, is the ideal choice for any home office and small-medium sized businesses.",
-    "toners": { "Toner": "TK-1242 " }
+    "toners": {
+      "Toner": "TK-1242 "
+    }
   },
   {
     "id": 1002,
-    "image_path": "./kyocera/ecosys-p2235dw.png",
+    "image_path": "./kyocera/ecosys-p2235dw.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P2235dw",
     "color": "bw",
     "ppm": "37",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS P2235dw b&w desktop printer combines exceptional print quality along with advanced features. It is ideal for the budget conscious business.",
-    "toners": { "Toner": "TK-1152" }
+    "toners": {
+      "Toner": "TK-1152"
+    }
   },
   {
     "id": 1003,
-    "image_path": "./kyocera/ecosys-p2040dw.png",
+    "image_path": "./kyocera/ecosys-p2040dw.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P2040dw",
     "color": "bw",
     "ppm": "42",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS P2040dw b&w desktop printer combines exceptional print quality along with advanced features. It is ideal for the budget conscious business.",
-    "toners": { "Toner": "TK-1162" }
+    "toners": {
+      "Toner": "TK-1162"
+    }
   },
   {
     "id": 1004,
-    "image_path": "./kyocera/ecosys-pa4500x.png",
+    "image_path": "./kyocera/ecosys-pa4500x.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "PA4500x/P3145dn",
     "color": "bw",
     "ppm": "47",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "A compact, powerful monochrome printer embedded with enhanced security features. Rapid print speeds of 47 pages per minute combined with impeccable quality prints makes this the perfect fit for small to midsize workgroups.    ",
-    "toners": { "Toner": "TK-3402" }
+    "toners": {
+      "Toner": "TK-3402"
+    }
   },
   {
     "id": 1005,
-    "image_path": "./kyocera/ecosys-pa5500x.png",
+    "image_path": "./kyocera/ecosys-pa5500x.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "PA5500x/P3155dn",
     "color": "bw",
     "ppm": "57",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "A versatile and robust monochrome printer that will steer your organization towards optimum productivity. With a speed of 57 pages per minute and advanced security features, your business can operate efficiently with the peace of mind that your documents are secure.    ",
-    "toners": { "Toner": "TK-3432" }
+    "toners": {
+      "Toner": "TK-3432"
+    }
   },
   {
     "id": 1006,
-    "image_path": "./kyocera/ecosys-pa6000x.png",
+    "image_path": "./kyocera/ecosys-pa6000x.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "PA6000x/P3260dn",
     "color": "bw",
     "ppm": "62",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "A perfect merge between unmatched productivity and high-end security capabilities. With up to 62 pages per minute and an impressive duty cycle of 300k pages per month, this device boasts with exceptional reliability, making it the ideal choice for small to midsize workgroups.    ",
-    "toners": { "Toner": "TK-3442" }
+    "toners": {
+      "Toner": "TK-3442"
+    }
   },
   {
     "id": 1007,
-    "image_path": "./kyocera/ecosys-p4060dn.png",
+    "image_path": "./kyocera/ecosys-p4060dn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P4060dn",
     "color": "bw",
     "ppm": "60",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "Bring power and performance to high quality printing at speeds up to 60 pages per minute. Easily tackles complex printing and day to day business requirements with ease.",
-    "toners": { "Toner": "TK-6332" }
+    "toners": {
+      "Toner": "TK-6332"
+    }
   },
   {
     "id": 1008,
-    "image_path": "./kyocera/ecosys-m2635dw.png",
+    "image_path": "./kyocera/ecosys-m2635dw.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M2635dw",
     "color": "bw",
     "ppm": "37",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M2635dw packs powerful capabilities in a b&w desktop multifunctional printer. With advanced features, this MFP is ideal for the budget conscious business.    ",
-    "toners": { "Toner": "TK-1152    " }
+    "toners": {
+      "Toner": "TK-1152    "
+    }
   },
   {
     "id": 1009,
-    "image_path": "./kyocera/ecosys-m2040dn.png",
+    "image_path": "./kyocera/ecosys-m2040dn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M2040dn/M2540dw/ M2640idw",
     "color": "bw",
     "ppm": "42",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M2040dn packs powerful capabilities in a b&w desktop multifunctional printer. With advanced features, this MFP is ideal for the budget conscious business.    ",
-    "toners": { "Toner": "TK-1172" }
+    "toners": {
+      "Toner": "TK-1172"
+    }
   },
   {
     "id": 1010,
-    "image_path": "./kyocera/ecosys-m3145idn.png",
+    "image_path": "./kyocera/ecosys-m3145idn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M3145idn",
     "color": "bw",
     "ppm": "47",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M3145dn b&w copy and color scan solution with speeds up to 47 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-3162" }
+    "toners": {
+      "Toner": "TK-3162"
+    }
   },
   {
     "id": 1011,
-    "image_path": "./kyocera/ecosys-m3645idn.png",
+    "image_path": "./kyocera/ecosys-m3645idn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M3645idn",
     "color": "bw",
     "ppm": "47",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M3645dn b&w copy, color scan and fax solution with speeds up to 47 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-3162" }
+    "toners": {
+      "Toner": "TK-3162"
+    }
   },
   {
     "id": 1012,
-    "image_path": "./kyocera/ecosys-m3655idn.png",
+    "image_path": "./kyocera/ecosys-m3655idn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M3655idn",
     "color": "bw",
     "ppm": "57",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M3655dn b&w copy, color scan and fax solution with speeds up to 57 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-3182" }
+    "toners": {
+      "Toner": "TK-3182"
+    }
   },
   {
     "id": 1013,
-    "image_path": "./kyocera/ecosys-m3860idnf.png",
+    "image_path": "./kyocera/ecosys-m3860idnf.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M3860idnf",
     "color": "bw",
     "ppm": "62",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M3860idnf b&w copy, color scan, fax and finishing solution with speeds up to 62 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-3192" }
+    "toners": {
+      "Toner": "TK-3192"
+    }
   },
   {
     "id": 1014,
-    "image_path": "./kyocera/ecosys-ma4500ifx.png",
+    "image_path": "./kyocera/ecosys-ma4500ifx.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "MA4500ifx",
     "color": "bw",
     "ppm": "47",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Compact yet powerful, at 47 pages per minute the MA4500ifx speeds through even the toughest jobs with ease providing outstanding image quality to get the job done right.    ",
-    "toners": { "Toner": "TK-3402" }
+    "toners": {
+      "Toner": "TK-3402"
+    }
   },
   {
     "id": 1015,
-    "image_path": "./kyocera/ecosys-ma5500ifx.png",
+    "image_path": "./kyocera/ecosys-ma5500ifx.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "MA5500ifx",
     "color": "bw",
     "ppm": "56",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "At 57 pages per minute, the MA5500ifx combines optimum productivity with the latest security enhancements to efficiently meet the needs of the most demanding organizations.    ",
-    "toners": { "Toner": "TK-3432" }
+    "toners": {
+      "Toner": "TK-3432"
+    }
   },
   {
     "id": 1016,
-    "image_path": "./kyocera/ecosys-ma6000ifx.png",
+    "image_path": "./kyocera/ecosys-ma6000ifx.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "MA6000ifx",
     "color": "bw",
     "ppm": "62",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS MA6000ifx is a versatile 62 page per minute BW MFP designed for small to mid-sized workgroups that require maximum productivity, reliability and affordability.    ",
-    "toners": { "Toner": "TK-3442" }
+    "toners": {
+      "Toner": "TK-3442"
+    }
   },
   {
     "id": 1017,
-    "image_path": "./kyocera/ecosys-m4125idn.png",
+    "image_path": "./kyocera/ecosys-m4125idn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS ",
     "modelnum": "M4125idn/M4132idn",
     "color": "bw",
     "ppm": "25",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M4125idn brings high-level functionality and quality black and white output to offices and workgroups looking for a MFP with a small footprint.    ",
-    "toners": { "Toner": "TK-6117" }
+    "toners": {
+      "Toner": "TK-6117"
+    }
   },
   {
     "id": 1018,
-    "image_path": "./kyocera/taskalfa-mz3200i.png",
+    "image_path": "./kyocera/taskalfa-mz3200i.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa ",
     "modelnum": "MZ3200i",
     "color": "bw",
     "ppm": "32",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The TASKalfa MZ3200i is a versatile BW network MFP designed for small workgroups and individual users that seek maximum productivity, reliability and affordability    ",
-    "toners": { "Toner": "TK-7139" }
+    "toners": {
+      "Toner": "TK-7139"
+    }
   },
   {
     "id": 1019,
-    "image_path": "./kyocera/taskalfa-mz4000i.png",
+    "image_path": "./kyocera/taskalfa-mz4000i.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "MZ4000i",
     "color": "bw",
     "ppm": "40",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The TASKalfa MZ4000i is a versatile BW network MFP designed for small workgroups and individual users that seek maximum productivity, reliability and affordability.    ",
-    "toners": { "Toner": "TK-7239" }
+    "toners": {
+      "Toner": "TK-7239"
+    }
   },
   {
     "id": 1020,
-    "image_path": "./kyocera/ecosys-pa2100cwx.png",
+    "image_path": "./kyocera/ecosys-pa2100cwx.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "PA2100cwx/P5521cdw",
     "color": "color",
     "ppm": "22",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS PA2100cwx is a versatile color network printer, designed for small workgroups and individual users that seek maximum productivity, reliability and affordability.    ",
-    "toners": { "Toner": "TK-5442 B,C,Y,M" }
+    "toners": {
+      "Toner": "TK-5442 B,C,Y,M"
+    }
   },
   {
     "id": 1021,
-    "image_path": "./kyocera/ecosys-p5026cdw.png",
+    "image_path": "./kyocera/ecosys-p5026cdw.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P5026cdw",
     "color": "color",
     "ppm": "27",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS P5026cdw is a versatile color network printer, designed for small workgroups and individual users that seek maximum productivity, reliability and affordability.    ",
-    "toners": { "Toner": "TK-5242 B,C,Y,M    " }
+    "toners": {
+      "Toner": "TK-5242 B,C,Y,M    "
+    }
   },
   {
     "id": 1022,
-    "image_path": "./kyocera/small-kyocera.png",
+    "image_path": "./kyocera/small-kyocera.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P6230cdn",
     "color": "color",
     "ppm": "32",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS P6230cdn print solution with speeds up to 32 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5272 B,C,Y,M" }
+    "toners": {
+      "Toner": "TK-5272 B,C,Y,M"
+    }
   },
   {
     "id": 1023,
-    "image_path": "./kyocera/ecosys-p6235cdn.png",
+    "image_path": "./kyocera/ecosys-p6235cdn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P6235cdn",
     "color": "color",
     "ppm": "37",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS P6235cdn print solution with speeds up to 37 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5282 B,C,Y,M" }
+    "toners": {
+      "Toner": "TK-5282 B,C,Y,M"
+    }
   },
   {
     "id": 1024,
-    "image_path": "./kyocera/ecosys-p7240cdn.png",
+    "image_path": "./kyocera/ecosys-p7240cdn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P7240cdn",
     "color": "color",
     "ppm": "42",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS P7240cdn print solution with speeds up to 42 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5292 B,C,Y,M" }
+    "toners": {
+      "Toner": "TK-5292 B,C,Y,M"
+    }
   },
   {
     "id": 1025,
-    "image_path": "./kyocera/ecosys-p8060cdn.png",
+    "image_path": "./kyocera/ecosys-p8060cdn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "P8060dn",
     "color": "color",
     "ppm": "60",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": "",
     "description": "Bring power and performance to high quality printing at speeds up to 60 pages per minute. Easily tackles complex printing and day to day business requirements with ease in vivid 1200 x1200 dpi color.    ",
-    "toners": { "Toner": "TK-8802 B,C,Y,M" }
+    "toners": {
+      "Toner": "TK-8802 B,C,Y,M"
+    }
   },
   {
     "id": 1026,
-    "image_path": "./kyocera/ecosys-ma2100cwfx.png",
+    "image_path": "./kyocera/ecosys-ma2100cwfx.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "MA2100cwfx/M5521",
     "color": "color",
     "ppm": "22",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS MA2100cwfx is a versatile color network MFP designed for small workgroups and individual users that seek maximum productivity, reliability and affordability.    ",
-    "toners": { "Toner": "TK-5442" }
+    "toners": {
+      "Toner": "TK-5442"
+    }
   },
   {
     "id": 1027,
-    "image_path": "./kyocera/ecosys-m5526cdw.png",
+    "image_path": "./kyocera/ecosys-m5526cdw.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M5526cdw",
     "color": "color",
     "ppm": "27",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M5526cdw is a versatile color network MFP designed for small workgroups and individual users that seek maximum productivity, reliability and affordability.    ",
-    "toners": { "Toner": "TK-5242" }
+    "toners": {
+      "Toner": "TK-5242"
+    }
   },
   {
     "id": 1028,
-    "image_path": "./kyocera/ecosys-m6630cidn.png",
+    "image_path": "./kyocera/ecosys-m6630cidn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M6630cidn",
     "color": "color",
     "ppm": "32",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M6630cidn copy, color scan, fax and finishing solution with speeds up to 32 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5272" }
+    "toners": {
+      "Toner": "TK-5272"
+    }
   },
   {
     "id": 1029,
-    "image_path": "./kyocera/ecosys-m6235cidn.png",
+    "image_path": "./kyocera/ecosys-m6235cidn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M6235cid/M6635cidn",
     "color": "color",
     "ppm": "37",
-    "function": ["Color Print, Copy", "Color Scan"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M6235cidn copy, color scan, and finishing solution with speeds up to 37 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5282" }
+    "toners": {
+      "Toner": "TK-5282"
+    }
   },
   {
     "id": 1030,
-    "image_path": "./kyocera/taskalfa-308ci.png",
+    "image_path": "./kyocera/taskalfa-308ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "308ci",
     "color": "color",
     "ppm": "32",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The TASKalfa 308ci copy, color scan, fax and finishing solution with speeds up to 32 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5197/9" }
+    "toners": {
+      "Toner": "TK-5197/9"
+    }
   },
   {
     "id": 1031,
-    "image_path": "./kyocera/taskalfa-358ci.png",
+    "image_path": "./kyocera/taskalfa-358ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "358ci",
     "color": "color",
     "ppm": "37",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The TASKalfa 358ci copy, color scan, fax and finishing solution with speeds up to 37 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5209/7" }
+    "toners": {
+      "Toner": "TK-5209/7"
+    }
   },
   {
     "id": 1032,
-    "image_path": "./kyocera/taskalfa-408ci.png",
+    "image_path": "./kyocera/taskalfa-408ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "408ci",
     "color": "color",
     "ppm": "42",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The TASKalfa 408ci copy, color scan, fax and finishing solution with speeds up to 42 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5319" }
+    "toners": {
+      "Toner": "TK-5319"
+    }
   },
   {
     "id": 1033,
-    "image_path": "./kyocera/taskalfa-508ci.png",
+    "image_path": "./kyocera/taskalfa-508ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "508ci",
     "color": "color",
     "ppm": "52",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The TASKalfa 508ci copy, color scan, fax and finishing solution with speeds up to 52 ppm, is the product of choice for small-medium sized businesses and workgroups.    ",
-    "toners": { "Toner": "TK-5319" }
+    "toners": {
+      "Toner": "TK-5319"
+    }
   },
   {
     "id": 1034,
-    "image_path": "./kyocera/ecosys-m8130cidn.png",
+    "image_path": "./kyocera/ecosys-m8130cidn.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "ECOSYS",
     "modelnum": "M8124cdn/M8130cidn",
     "color": "color",
     "ppm": "30",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "The ECOSYS M8130cidn combines exceptional business color and superior functionality with low total cost of ownership.    ",
-    "toners": { "Toner": "TK-8117" }
+    "toners": {
+      "Toner": "TK-8117"
+    }
   },
   {
     "id": 1035,
-    "image_path": "./kyocera/taskalfa-2554ci.png",
+    "image_path": "./kyocera/taskalfa-2554ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "2554ci",
     "color": "color",
     "ppm": "25",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Minimize downtime and optimize workflows with this speedy color MFP. Enjoy unbeatable reliability, flexibility, and consistency at 25 pages per minute.    ",
-    "toners": { "Toner": "TK-8369/TK-8367K/TK8367K" }
+    "toners": {
+      "Toner": "TK-8369/TK-8367K/TK8367K"
+    }
   },
   {
     "id": 1036,
-    "image_path": "./kyocera/taskalfa-3212i.png",
+    "image_path": "./kyocera/taskalfa-3212i.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "3212i",
     "color": "bw",
     "ppm": "32",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Minimize downtime and optimize workflows with this speedy b&w MFP. Enjoy unbeatable reliability, flexibility, and consistency at 32 pages per minute.",
-    "toners": { "Toner": "TK-7127" }
+    "toners": {
+      "Toner": "TK-7127"
+    }
   },
   {
     "id": 1037,
-    "image_path": "./kyocera/taskalfa-3554ci.png",
+    "image_path": "./kyocera/taskalfa-3554ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "3554ci",
     "color": "color",
     "ppm": "35",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Minimize downtime and optimize workflows with this speedy color MFP. Enjoy unbeatable reliability, flexibility, and consistency at 35 pages per minute.    ",
-    "toners": { "Toner": "TK-8379" }
+    "toners": {
+      "Toner": "TK-8379"
+    }
   },
   {
     "id": 1038,
-    "image_path": "./kyocera/taskalfa-3212i.png",
+    "image_path": "./kyocera/taskalfa-3212i.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "3212i/4012i",
     "color": "bw",
     "ppm": "32, 40",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Minimize downtime and optimize workflows with this speedy BW MFP. Enjoy unbeatable reliability, flexibility, and consistency at 40 pages per minute.    ",
-    "toners": { "Toner": "TK-7227" }
+    "toners": {
+      "Toner": "TK-7227"
+    }
   },
   {
     "id": 1039,
-    "image_path": "./kyocera/taskalfa-4004i.png",
+    "image_path": "./kyocera/taskalfa-4004i.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "4004i/5004/6004i",
     "color": "bw",
     "ppm": "40, 50, 60 ",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Minimize downtime and optimize workflows with this speedy BW MFP. Enjoy unbeatable reliability, flexibility, and consistency at 60 pages per minute.    ",
-    "toners": { "Toner": "TK-6347K/TK-6349K" }
+    "toners": {
+      "Toner": "TK-6347K/TK-6349K"
+    }
   },
   {
     "id": 1040,
-    "image_path": "./kyocera/taskalfa-7054ci.png",
+    "image_path": "./kyocera/taskalfa-7054ci.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa",
     "modelnum": "7054ci",
     "color": "color",
     "ppm": "70",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Minimize downtime and optimize workflows with this speedy color MFP. Enjoy unbeatable reliability, flexibility, and consistency at 70 pages per minute.    ",
-    "toners": { "Toner": "TK-8557 B,C,Y,M" }
+    "toners": {
+      "Toner": "TK-8557 B,C,Y,M"
+    }
   },
   {
     "id": 1041,
-    "image_path": "./kyocera/taskalfa-8003i.png",
+    "image_path": "./kyocera/taskalfa-8003i.webp",
     "parts": "copier",
     "brand": "Kyocera",
     "subCategory": "TASKalfa ",
     "modelnum": "8003i/9003i",
     "color": "bw",
     "ppm": "80, 90",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": "",
     "description": "Achieve high-speed reliable performance with this productive b&w MFP. Deliver your message with vivid, sharp graphics and professional finishing at speeds up 80 pages per minute.    ",
-    "toners": { "Toner": "TK-6727" }
+    "toners": {
+      "Toner": "TK-6727"
+    }
   },
-
   {
     "id": 2001,
-    "image_path": "./sharp/MX-B427PW.png",
+    "image_path": "./sharp/MX-B427PW.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B427PW",
     "color": "bw",
     "ppm": "42",
-    "function": ["Black & White print", "Color Scan"],
+    "function": [
+      "Black & White print",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-B427PW desktop monochrome printer delivers crisp, high-quality output with exceptional ease of use. This ultra-compact printer provides customers with a simplified user experience and the confidence of knowing their jobs will come out right the first time, every time. The MX-B427PW is equipped with economical features that reduce energy consumption both while in use and during sleep mode. Offering wireless capability right out of the box, the MX-B427PW is the perfect solution for the workplace or home office.",
-    "toners": { "Toner": "MX-B42T/MX-CS26 " }
+    "toners": {
+      "Toner": "MX-B42T/MX-CS26 "
+    }
   },
-
   {
     "id": 2002,
-    "image_path": "./sharp/MX-B467P.png",
+    "image_path": "./sharp/MX-B467P.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B467P",
     "color": "bw",
     "ppm": "46",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-B467P desktop monochrome printer delivers crisp, high-quality output with exceptional ease of use. This compact printer provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. The MX-B467P is equipped with economical features that reduce energy consumption both while in use and during sleep mode. Offering versatile paper handling in a small design, the MX-B467P is the perfect solution for the workplace or home office.",
-    "toners": { "Toner": "MX-B46T" }
+    "toners": {
+      "Toner": "MX-B46T"
+    }
   },
   {
     "id": 2003,
-    "image_path": "./sharp/MX-B707P.png",
+    "image_path": "./sharp/MX-B707P.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B557/B707",
     "color": "bw",
     "ppm": "55, 70",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The B557/B707 Monochrome Desktop Printer delivers crisp, high-quality output with exceptional ease of use. This compact printer provides users with an intuitive touchscreen and advanced durability to ensure years of reliable and carefree operation. Packed with high-performance features and finishing typically found in MFPs, the MX-B707P will give customers the confidence to print any size job from their workplace or home office.",
-    "toners": { "Toner": "MX-B70T" }
+    "toners": {
+      "Toner": "MX-B70T"
+    }
   },
   {
     "id": 2004,
-    "image_path": "./sharp/MX-C407P.png",
+    "image_path": "./sharp/MX-C407P.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "C407P",
     "color": "color",
     "ppm": "40",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-C407P desktop color printer delivers crisp, high-quality output with exceptional ease of use. This compact printer provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Packed with robust technology and features typically found on MFPs, the MX-C407P will give customers the confidence to print any size job from their workplace or home office.",
-    "toners": { "Toner": "MX-C35T B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C35T B,C,M,Y"
+    }
   },
   {
     "id": 2005,
-    "image_path": "./sharp/MX-C507P.png",
+    "image_path": "./sharp/MX-C507P.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "C507P",
     "color": "color",
     "ppm": "50",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-C507P desktop color printer delivers crisp, high-quality output with exceptional ease of use. This compact printer provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Packed with robust technology and features typically found on larger MFPs, the MX-C507P will give customers the confidence to print any size job from their workplace or home office.",
-    "toners": { "Toner": "MX-C51T B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C51T B,C,M,Y"
+    }
   },
   {
     "id": 2006,
-    "image_path": "./sharp/MX-C607P.png",
+    "image_path": "./sharp/MX-C607P.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "C607P",
     "color": "color",
     "ppm": "60",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-C607P desktop color printer delivers crisp, high-quality output with exceptional ease of use. This compact printer provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Packed with robust technology and features typically found on larger MFPs, the MX-C607P will give customers the confidence to print any size job from their workplace or home office.",
-    "toners": { "Toner": "MX-C55T B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C55T B,C,M,Y"
+    }
   },
   {
     "id": 2007,
-    "image_path": "./sharp/MX-B376W.png",
+    "image_path": "./sharp/MX-B376W.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B376W/B476W",
     "color": "bw",
     "ppm": "47",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax", "Wireless"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax",
+      "Wireless"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-B376W and MX-B476W Advanced Series desktop monochrome document systems deliver crisp, high-quality output with exceptional ease of use. These new models provide customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with high-performance features typically found on larger machines, the compact MX-B376W and MX-B476W deliver the productivity you need with the performance and reliability you want.",
-    "toners": { "Toner": "MX-B45NT" }
+    "toners": {
+      "Toner": "MX-B45NT"
+    }
   },
   {
     "id": 2008,
-    "image_path": "./sharp/MX-B427W.png",
+    "image_path": "./sharp/MX-B427W.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B427W",
     "color": "bw",
     "ppm": "40",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-B427W desktop monochrome document system delivers crisp, high-quality output with exceptional ease of use. This model provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with robust technology and energy efficient features, the compact MX-B427W delivers the productivity you need with the performance and reliability you want in your workplace or home office.",
-    "toners": { "Toner": "MX-B42T" }
+    "toners": {
+      "Toner": "MX-B42T"
+    }
   },
   {
     "id": 2009,
-    "image_path": "./sharp/MX-B467F.png",
+    "image_path": "./sharp/MX-B467F.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B467F",
     "color": "bw",
     "ppm": "46",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-B467F desktop monochrome document system delivers crisp, high-quality output with exceptional ease of use. This model provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with robust technology and software typically found on full-size workgroup devices, the compact MX-B467F delivers the productivity you need with the performance and reliability you want in your workplace or home office.",
-    "toners": { "Toner": "MX-B46T" }
+    "toners": {
+      "Toner": "MX-B46T"
+    }
   },
   {
     "id": 2010,
-    "image_path": "./sharp/MX-B557F.png",
+    "image_path": "./sharp/MX-B557F.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "B557F",
     "color": "bw",
     "ppm": "52",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-B557F desktop monochrome document system produces crisp, high-quality output with exceptional ease of use. This model provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with high-performance features typically found on larger machines, the compact MX-B557F delivers the productivity and performance you need in your home office or place of business",
-    "toners": { "Toner": "MX-B70T" }
+    "toners": {
+      "Toner": "MX-B70T"
+    }
   },
   {
     "id": 2011,
-    "image_path": "./sharp/MX-C304WH.png",
+    "image_path": "./sharp/MX-C304WH.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "C303WH/MC304WH",
     "color": "color",
     "ppm": "30",
-    "function": ["Color Print, Copy", "Color Scan"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The Sharp MX-C304WH Advanced Series desktop color document system delivers crisp, high-quality output with exceptional ease of use. This model provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with high-performance features typically found on larger machines, the compact MX-C304WH will deliver the productivity you need with the performance and reliability you want.",
-    "toners": { "Toner": "MX-C30NT B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C30NT B,C,M,Y"
+    }
   },
   {
     "id": 2012,
-    "image_path": "./sharp/MX-C428F.png",
+    "image_path": "./sharp/MX-C428F.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX.png",
     "modelnum": "C428F.png",
     "color": "color",
     "ppm": "42",
-    "function": ["Color Print, Copy", "Color Scan"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-C428F 42 page per minute color multifunction printer makes it easy for businesses to execute jobs quickly, leaving more time for the actual job at hand. The 7” (diagonal) tablet-style touchscreen delivers an accurate responsive experience that allows users to easily scan documents. Enhance your office’s output of professional-quality color content that gets the attention of your audience while saving time and money!",
-    "toners": { "Toner": "MX-C52T B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C52T B,C,M,Y"
+    }
   },
   {
     "id": 2013,
-    "image_path": "./sharp/MX-C357F.png",
+    "image_path": "./sharp/MX-C357F.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "C357F",
     "color": "color",
     "ppm": "35",
-    "function": ["Color Print, Copy", "Color Scan", "Fax"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-C357F desktop color document system delivers crisp, high-quality output with exceptional ease of use. This model provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with robust technology and features typically found on larger machines, the compact MX-C357F delivers the productivity you need with the performance and reliability you want in your workplace or home office.",
-    "toners": { "Toner": "MX-C35T B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C35T B,C,M,Y"
+    }
   },
   {
     "id": 2014,
-    "image_path": "./sharp/MX-C507F.png",
+    "image_path": "./sharp/MX-C507F.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "C507F",
     "color": "color",
     "ppm": "50",
-    "function": ["Color Print, Copy", "Color Scan", "Fax"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The MX-C507F desktop color document system delivers crisp, high-quality output with exceptional ease of use. This model provides customers with an intuitive user experience and the confidence of knowing their jobs will come out right the first time, every time. Designed with robust technology and features typically found on larger machines, the MX-C507F delivers the productivity you need with the performance and reliability you want in your workplace or home office.",
-    "toners": { "Toner": "MX-C50T B,C,M,Y" }
+    "toners": {
+      "Toner": "MX-C50T B,C,M,Y"
+    }
   },
   {
     "id": 2015,
-    "image_path": "./sharp/BP-70M65.png",
+    "image_path": "./sharp/BP-70M65.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "BP",
     "modelnum": "70M",
     "color": "bw",
     "ppm": "31, 36, 45, 55, 65",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The New B&W Advanced Series from Sharp. Taking organizations to the future of business communication by helping them work simply smarter. Designed to fit today’s diverse workstyles, the new Advanced Series monochrome document systems enable workers to collaborate and share information seamlessly and securely throughout their office environment. Enhanced cloud services such as Microsoft Teams makes it easy to streamline communication and boost productivity with hybrid workers.",
-    "toners": { "Toner": "BP-NT700/BP-NV700" }
+    "toners": {
+      "Toner": "BP-NT700/BP-NV700"
+    }
   },
   {
     "id": 2016,
-    "image_path": "./sharp/BP-50M26.png",
+    "image_path": "./sharp/BP-50M26.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "BP",
     "modelnum": "50M",
     "color": "bw",
     "ppm": "26, 31, 36, 45, 55, 65",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The New B&W Essentials Series from Sharp. Taking organizations to the future of business communication by helping them work simply smarter. Designed to fit today’s diverse workstyles, the new Essentials Series monochrome document systems enable workers to collaborate and share information seamlessly and securely throughout their office environment. Available enhanced cloud services such as Microsoft Teams makes it easy to streamline communication and boost productivity with hybrid workers.",
-    "toners": { "Toner": "BP-NT700/BP-NV700" }
+    "toners": {
+      "Toner": "BP-NT700/BP-NV700"
+    }
   },
   {
     "id": 2017,
-    "image_path": "./sharp/MX-3071.png",
+    "image_path": "./sharp/MX-3071.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "3071/3571/4071",
     "color": "bw",
     "ppm": "30, 45, 40",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The Sharp MX-3071, MX-3571 and MX-4071 Advanced Series color document systems are built using the latest technology available to deliver the performance, features and reliability needed in today’s busy workplace environments. These new MFPs are also easy to use and offer enhanced productivity, all to provide customers with a seamless, intuitive experience, and the confidence in knowing their jobs will come out right the first time, every time. The new Color Advanced Series also offers leading-edge security features to help businesses protect their data and personal information.",
-    "toners": { "Toner": "MX-61NTBA/C,Y,M" }
+    "toners": {
+      "Toner": "MX-61NTBA/C,Y,M"
+    }
   },
   {
     "id": 2018,
-    "image_path": "./sharp/BP-50C65.png",
+    "image_path": "./sharp/BP-50C65.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "BP",
     "modelnum": "70C/60C/50C",
     "color": "color",
     "ppm": "26, 31, 36, 45, 55, 65",
-    "function": ["Color Print, Copy", "Color Scan"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The New Color Essentials Series from Sharp. Taking organizations to the future of business communication by helping them work simply smarter. Designed to fit today’s diverse workstyles, the new Essentials Series color document systems enable workers to collaborate and share information seamlessly and securely throughout their office environment. Available enhanced cloud services such as Microsoft Teams makes it easy to streamline communication and boost productivity with hybrid workers.",
-    "toners": { "Toner": "BP-NT70BA/C,Y,M" }
+    "toners": {
+      "Toner": "BP-NT70BA/C,Y,M"
+    }
   },
   {
     "id": 2019,
-    "image_path": "./sharp/MX-M6050.png",
+    "image_path": "./sharp/MX-M6050.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "M6050/M5050",
     "color": "bw",
     "ppm": "60",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The Sharp MX-M5050 and MX-M6050 Essentials Series monochrome workgroup document systems offer crisp, high quality output with exceptional ease of use. These new models are designed to provide customers with a seamless, intuitive experience, and the confidence in knowing their jobs will come out right the first time, every time. The new monochrome Essentials Series focuses on value as well as user operability and draws inspiration from the latest networking and imaging technologies available today, all to create a document system that delivers the productivity you need, with the reliable performance you want.",
-    "toners": { "Toner": "MX-561NT/MX-560NT" }
+    "toners": {
+      "Toner": "MX-561NT/MX-560NT"
+    }
   },
   {
     "id": 2020,
-    "image_path": "./sharp/MX-M3571.png",
+    "image_path": "./sharp/MX-M3571.webp",
     "parts": "copier",
     "brand": "Sharp",
     "subCategory": "MX",
     "modelnum": "M3571",
     "color": "bw",
     "ppm": "30, 35, 40",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
-    "options": [""],
+    "options": [
+      ""
+    ],
     "description": "The Sharp MX-M3071, MX-M3571 and MX-M4071 Advanced Series monochrome document systems are built using the latest technology available to deliver the performance, features and reliability needed in today’s busy workplace environments. These new MFPs are also easy to use and offer enhanced productivity, all to provide customers with a seamless, intuitive experience, and the confidence in knowing their jobs will come out right the first time, every time. The new Monochrome Advanced Series also offers leading-edge security features to help businesses protect their data and personal information.",
-    "toners": { "Toner": "MX-561NT/MX-560NT" }
+    "toners": {
+      "Toner": "MX-561NT/MX-560NT"
+    }
   },
   {
     "id": 3001,
-    "image_path": "./konica/bizhub-4700i.png",
+    "image_path": "./konica/bizhub-4700i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": "4700i",
     "color": "bw",
     "ppm": "50",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": [],
     "description": "The latest addition to the new generation of the bizhub A4 series, the bizhub 4700i monochrome single function printer. The updated A4 model maintains the company’s objective to create value, ease and convenience for our customers while also taking into consideration a changed work environment with more people working from home. The A4 SFP incorporates features that are simple enough for use at home yet still offer advanced features for a professional office setup.    ",
-    "toners": { "Toner": "TNP-91" }
+    "toners": {
+      "Toner": "TNP-91"
+    }
   },
   {
     "id": 3002,
-    "image_path": "./konica/bizhub-5000i.png",
+    "image_path": "./konica/bizhub-5000i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": "5000i/4000i",
     "color": "bw",
     "ppm": "52,42",
-    "function": ["Black & White Print"],
+    "function": [
+      "Black & White Print"
+    ],
     "cassette": "",
     "options": [],
     "description": "The bizhub 5000i is the perfect working tool to have your documents ready at any time for any purpose. With its compact design and small footprint as well as high print speed and productivity, the bizhub 5000i impresses on every desk.    ",
-    "toners": { "Toner": "TNP-76" }
+    "toners": {
+      "Toner": "TNP-76"
+    }
   },
   {
     "id": 3003,
-    "image_path": "./konica/bizhub-C3100i.png",
+    "image_path": "./konica/bizhub-C3100i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " C3100i",
     "color": "color",
     "ppm": "33",
-    "function": ["Color Print"],
+    "function": [
+      "Color Print"
+    ],
     "cassette": "",
     "options": [],
     "description": "For print-only applications, the bizhub C3100i is a great low-cost solution. With its color print speed of 33 pages per minute and high quality output, it’s a great value for home or office.    ",
-    "toners": { "Toner": "TNP-93K" }
+    "toners": {
+      "Toner": "TNP-93K"
+    }
   },
   {
     "id": 3004,
-    "image_path": "./konica/bizhub-227.png",
+    "image_path": "./konica/bizhub-227.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": "287/227",
     "color": "bw",
     "ppm": "28, 22",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The bizhub 227 provides productivity features to speed your output economically, including 22 ppm printing, color scanning, powerful finishing options for right-size scalability and enhanced control panel which now features a new mobile connectivity area.    ",
-    "toners": { "Toner": "TN-323" }
+    "toners": {
+      "Toner": "TN-323"
+    }
   },
   {
     "id": 3005,
-    "image_path": "./konica/bizhub-4750i.png",
+    "image_path": "./konica/bizhub-4750i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " 4750i/4050i",
     "color": "bw",
     "ppm": "50, 42",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The latest addition to the new generation of the bizhub A4 series, the bizhub 4750i monochrome MFP. The updated A4 model maintains the company’s objective to create value, ease and convenience for our customers while also taking into consideration a changed work environment with more people working from home.    ",
-    "toners": { "Toner": "TNP-90" }
+    "toners": {
+      "Toner": "TNP-90"
+    }
   },
   {
     "id": 3007,
-    "image_path": "./konica/bizhub-C3120i.png",
+    "image_path": "./konica/bizhub-C3120i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " C3120i",
     "color": "bw",
     "ppm": "30",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The bizhub C3120i is a great low-cost color All-in-One Printer solution. With its color print speed of 33 pages per minute and high quality output, combined with standard copy, scan, and fax functions, it’s a great value for home or office.    ",
-    "toners": { "Toner": "TNP-92K" }
+    "toners": {
+      "Toner": "TNP-92K"
+    }
   },
   {
     "id": 3008,
-    "image_path": "./konica/bizhub-5020i.png",
+    "image_path": "./konica/bizhub-5020i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": "5020i/4020i",
     "color": "bw",
     "ppm": "52, 42",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The bizhub 5020i impresses with high productivity and versatility. The amazing print speed combined with standard dual scan document feeder and duplex printing plus various optional functions make this a perfect solution for daily printing demands for any mid-sized to larger business.    ",
-    "toners": { "Toner": "TNP-78" }
+    "toners": {
+      "Toner": "TNP-78"
+    }
   },
   {
     "id": 3009,
-    "image_path": "./konica/bizhub-360i.png",
+    "image_path": "./konica/bizhub-360i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " C360i, C300i, C250i",
     "color": "color",
     "ppm": "36, 30, 25",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The i-Series houses a powerful engine, a quad-core Central Processing Unit with standard 8 GB of memory and 256 GB SSD, which allows for quick-response, high-performance operations. With an additional combination of full-speed media printing range, high-speed one pass dual scan doc feeder, digital skew correction, and large capability trays, expertly blends reliable functionality with versatile serviceability.    ",
-    "toners": { "Toner": "TN328 B,C,Y,M" }
+    "toners": {
+      "Toner": "TN328 B,C,Y,M"
+    }
   },
   {
     "id": 3010,
-    "image_path": "./konica/bizhub-c3320i.png",
+    "image_path": "./konica/bizhub-c3320i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " C3320i",
     "color": "color",
     "ppm": "35",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The bizhub C3320i Color All-in-One Printer puts color power as close as your desktop: brilliant image quality at up to 35 ppm, Emperon print controller, standard dual scan document feeder, low per-page cost and optional Super G3 fax, all in compact, space-saving design that’s a perfect fit for mixed MFP and desktop environments.    ",
-    "toners": { "Toner": "TNP-80K" }
+    "toners": {
+      "Toner": "TNP-80K"
+    }
   },
   {
     "id": 3011,
-    "image_path": "./konica/bizhub-c4000i.png",
+    "image_path": "./konica/bizhub-c4000i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " C4000i/C3300i",
     "color": "color",
     "ppm": "42, 35",
-    "function": ["Color Print, Copy", "Color Scan", "Fax"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax"
+    ],
     "cassette": "",
     "options": [],
     "description": "For print-only applications, the new iSeries printers, bizhub® C4000i and C3300i, combine space-saving design with Emperon® controller and high-speed output up to 42 color prints per minute – an ideal productivity solution in mixed MFP and desktop environments, branch locations and small to mid-size businesses with rising document demands.    ",
-    "toners": { "Toner": "TN-P81K" }
+    "toners": {
+      "Toner": "TN-P81K"
+    }
   },
   {
     "id": 3012,
-    "image_path": "./konica/bizhub-c4050i.png",
+    "image_path": "./konica/bizhub-c4050i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
@@ -1077,205 +1486,287 @@
     "ppm": "42, 35",
     "function": [],
     "cassette": "",
-    "options": ["Color Print, Copy", "Color Scan", "Fax"],
+    "options": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax"
+    ],
     "description": "The new i-Series compact color MFPs house a powerful engine, a quad-core Central Processing Unit with standard 5 GB of memory and 256 GB SSD, which allows for quick-response and high-performance operations. The advanced Emperon print system, standard wireless connectivity and web browser, dual scan document feeder, high-speed fax and intuitive touchscreen operation make this a valuable stand-alone solution or versatile addition to mixed networks of large and small MFPs.    ",
-    "toners": { "Toner": "TN-P79K" }
+    "toners": {
+      "Toner": "TN-P79K"
+    }
   },
   {
     "id": 3013,
-    "image_path": "./konica/bizhub-650i.png",
+    "image_path": "./konica/bizhub-650i.webp",
     "parts": "copier",
     "brand": "Konica",
     "subCategory": "bizhub",
     "modelnum": " 650i/550i/450i",
     "color": "color",
     "ppm": "65, 55, 45",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The i-Series houses a powerful engine, a quad-core central processing unit with standard 8 GB of memory and 256 GB SSD, which allows for quick-response, high-performance operations. With an additional combination of full-speed media printing range, high-speed single pass dual scan doc feeder as well as finishing options, digital skew correction, and large capability trays, expertly blends reliable functionality with versatile serviceability.    ",
-    "toners": { "Toner": "TN-628" }
+    "toners": {
+      "Toner": "TN-628"
+    }
   },
-
   {
     "id": 4001,
-    "image_path": "./toshiba/e-studio-6525.png",
+    "image_path": "./toshiba/e-studio-6525.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "6525AC/5525AC/4525AC/ 3525AC/3025AC/2525AC",
     "color": "color",
     "ppm": "65, 55, 45, 35, 30, 25",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "TOSHIBA's new MFP series has improved operability and enhanced printing and scanning functions, making it more comfortable to use. Moreover, the new series uses the cloud to integrate cyber space and the work place so information and data can be stored, accessed, and used securely and efficiently, empowering customers and contributing to the creation of new value.    ",
-    "toners": { "Toner": "T-FC425 " }
+    "toners": {
+      "Toner": "T-FC425 "
+    }
   },
   {
     "id": 4002,
-    "image_path": "./toshiba/e-studio-6528.png",
+    "image_path": "./toshiba/e-studio-6528.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "6528A/5528A/4528A/ 3528A/3028A/2528A",
     "color": "bw",
     "ppm": "65, 55, 45, 35, 30, 25",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "TOSHIBA's new MFP series has improved operability and enhanced printing and scanning functions, making it more comfortable to use. Moreover, the new series uses the cloud to integrate cyber space and the work place so information and data can be stored, accessed, and used securely and efficiently, empowering customers and contributing to the creation of new value.    ",
-    "toners": { "Toner": "T-3028U" }
+    "toners": {
+      "Toner": "T-3028U"
+    }
   },
   {
     "id": 4003,
-    "image_path": "./toshiba/e-studio-400ac.png",
+    "image_path": "./toshiba/e-studio-400ac.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "400AC/330AC",
     "color": "color",
     "ppm": "42, 35",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "Toshiba’s e-STUDIO330AC/400AC provides the robust feature set of its full-size MFPs in a compact footprint, making this series an ideal candidate for small to mid-size workgroups. They will also lighten the load of the busiest workgroup systems. Like Toshiba’s larger models, this series offers all the functions and applications you need to keep your business running smoothly – copy, print, scan, and fax, plus the same workflow-enhancing solutions.",
-    "toners": { "Toner": "T-FC330UK,C,Y,M" }
+    "toners": {
+      "Toner": "T-FC330UK,C,Y,M"
+    }
   },
   {
     "id": 4004,
-    "image_path": "./toshiba/e-studio-2822am.png",
+    "image_path": "./toshiba/e-studio-2822am.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "2822AM/2822AF",
     "color": "bw",
     "ppm": "28",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": [],
     "description": "e-STUDIO2822AM/ e-STUDIO2822AF series are A3 output capable MFP with A4 footprint. These are high reliability/durability, and low TCO comparing with A4 MFPs. Simple but higher functional. These models are ideal for users who mainly use A4/LT but occasionally wish to use A3/LD size.",
-    "toners": { "Toner": "T-2822U" }
+    "toners": {
+      "Toner": "T-2822U"
+    }
   },
   {
     "id": 4005,
-    "image_path": "./toshiba/e-studio-2520.png",
+    "image_path": "./toshiba/e-studio-2520.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "2520AC/2020AC",
     "color": "color",
     "ppm": "25, 20",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "Big and better changes for small workgroups start with the e-STUDIO2520AC. Protecting data with elevated security, this MFP integrates multiple features into one dynamic device so the team can perform a variety of tasks effortlessly.    ",
-    "toners": { "Toner": "T-FC220UK,C,Y,M" }
+    "toners": {
+      "Toner": "T-FC220UK,C,Y,M"
+    }
   },
   {
     "id": 4006,
-    "image_path": "./toshiba/e-studio-2829a.png",
+    "image_path": "./toshiba/e-studio-2829a.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "2829A/2823AM/2523AD/ 2523A",
     "color": "bw",
     "ppm": "28, 28, 25",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "",
     "options": [],
     "description": "Taking over a lot of features of previous models, these new models have a lot of improvements such as enhancement of operability, usability, and compliant the latest environmental regulations. Simple but higher functional.",
-    "toners": { "Toner": "T-2323U" }
+    "toners": {
+      "Toner": "T-2323U"
+    }
   },
   {
     "id": 4007,
-    "image_path": "./toshiba/e-studio-7527.png",
+    "image_path": "./toshiba/e-studio-7527.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "7527AC/6527AC/6526AC",
     "color": "color",
     "ppm": "75, 65, 65",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The e-STUDIO6526AC/6527AC/7527AC are the next generation of high-end color MFPs boasting a high performance output of 65 and 75 ppm, the fullest range of security features, and cloud ready features. These multifunction printers are the great choice for today’s modern, hybrid work environments    ",
-    "toners": { "Toner": "T-FC556UC" }
+    "toners": {
+      "Toner": "T-FC556UC"
+    }
   },
   {
     "id": 4008,
-    "image_path": "./toshiba/e-studio-8518.png",
+    "image_path": "./toshiba/e-studio-8518.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "8518A/7518A/6518A/ 5518A",
     "color": "bw",
     "ppm": "85, 75, 65, 55",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The e-STUDIO5518A/6518A/7518A/8518A are high-end monochrome MFPs that boast printing output 55/65/75/85 ppm. This series features enhanced user interface, advanced cloud and mobile printing capabilities. Those functions enable those of you who need to copy and scan large amounts of monochrome documents with high speed and high volumes. Such advanced functions will help you improve your daily work.    ",
-    "toners": { "Toner": "T-6518U" }
+    "toners": {
+      "Toner": "T-6518U"
+    }
   },
   {
     "id": 4009,
-    "image_path": "./toshiba/e-studio-7516.png",
+    "image_path": "./toshiba/e-studio-7516.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "7516AC/6516AC/5516AC",
     "color": "color",
     "ppm": "75, 65, 55",
-    "function": ["Color Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Color Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The e-STUDIO5516AC/6516AC/7516AC are high-end color MFPs that boast a color printing output 55/65/75 ppm. Many amounts of printings and scanning are required for daily work? If yes, here we have some solutions for you. This series of MFPs integrates newly-engineered software, enhanced user interface, and embedded application platform. Such advanced functions are your best business partners in your daily work.    ",
-    "toners": { "Toner": "T-FC616UK" }
+    "toners": {
+      "Toner": "T-FC616UK"
+    }
   },
   {
     "id": 4010,
-    "image_path": "./toshiba/e-studio-9029.png",
+    "image_path": "./toshiba/e-studio-9029.webp",
     "parts": "copier",
     "brand": "Toshiba",
     "subCategory": "e-STUDIO",
     "modelnum": "9029A/7529A/6529A",
     "color": "bw",
     "ppm": "90, 75, 65",
-    "function": ["Black & White Print, Copy", "Color Scan", "Fax (Optional)"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan",
+      "Fax (Optional)"
+    ],
     "cassette": "",
     "options": [],
     "description": "The e-STUDIO6529A/7529A/9029A are the next generation of high-end monochrome MFPs boasting a high performance output of 65, 75, and 90 ppm, the fullest range of security features, and cloud ready features. These multifunction printers are the great choice for today’s modern, hybrid work environments.    ",
-    "toners": { "Toner": "T-9029U " }
+    "toners": {
+      "Toner": "T-9029U "
+    }
   },
-
   {
     "id": 5000,
-    "image_path": "./canon/imagerunner_advance_c5500i_iii.png",
+    "image_path": "./canon/imagerunner_advance_c5500i_iii.webp",
     "parts": "copier",
     "brand": "Canon",
     "subCategory": "imageRUNNER Advance",
     "modelnum": "c5500i iii",
     "color": "color",
     "ppm": "50",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "1,200 Sheet sheet tray",
-    "options": ["Stapler"],
+    "options": [
+      "Stapler"
+    ],
     "description": "The imageRUNNER 5500i III series incorporates the imageRUNNER ADVANCE platform core values providing seamless integration with a host of business solutions that improve workflow, maintain a comprehensive security profile and offer a smartphone-like user interface. These color , multifunction feature a number of technology enhancements focused on improved image quality device & fleet management, sustainability and reliability.",
-    "toners": { "Toner": "GPR-55" }
+    "toners": {
+      "Toner": "GPR-55"
+    }
   },
   {
     "id": 5001,
-    "image_path": "./canon/imagerunner_advance_6255.png",
+    "image_path": "./canon/imagerunner_advance_6255.webp",
     "parts": "copier",
     "brand": "Canon",
     "subCategory": "imageRUNNER Advance",
     "modelnum": "6255",
     "color": "bw",
     "ppm": "55",
-    "function": ["Black & White Print, Copy", "Color Scan"],
+    "function": [
+      "Black & White Print, Copy",
+      "Color Scan"
+    ],
     "cassette": "3,500 Sheet sheet tray",
-    "options": ["Stapler"],
+    "options": [
+      "Stapler"
+    ],
     "description": "The imageRUNNER ADVANCE 6200 Series transforms workflow from a sequence of individual processes to an integrated flow of shared information. A center for digital communications, this Series will propel your business to new levels of performance and productivity. From every point of view, these models are simply advanced.",
-    "toners": { "Toner": "GPR-38" }
+    "toners": {
+      "Toner": "GPR-38"
+    }
   }
 ]

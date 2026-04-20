@@ -2,20 +2,20 @@ import { Helmet } from "react-helmet-async";
 import "../../styles/styles.css";
 import "./HomePage.css";
 import { Link, useNavigate } from "react-router-dom";
-import canon from "../../assets/images/brands/canon.png";
-import brother from "../../assets/images/brands/brother.png";
-import hp from "../../assets/images/brands/hp.png";
-import ricoh from "../../assets/images/brands/ricoh.png";
-import konicaminolta from "../../assets/images/brands/konicaminolta.png";
-import kyocera from "../../assets/images/brands/kyocera.png";
-import nec from "../../assets/images/brands/nec.png";
-import sharp from "../../assets/images/brands/sharp.png";
-import toshiba from "../../assets/images/brands/toshiba.png";
-import xerox from "../../assets/images/brands/xerox.png";
-import home_copier from "../../assets/images/home/copier.png";
-import home_tech from "../../assets/images/home/technician.png";
-import about_customer from "../../assets/images/home/customer.png";
-import oldpic from "../../assets/images/home/oldpic.png";
+import canon from "../../assets/images/brands/canon.webp";
+import brother from "../../assets/images/brands/brother.webp";
+import hp from "../../assets/images/brands/hp.webp";
+import ricoh from "../../assets/images/brands/ricoh.webp";
+import konicaminolta from "../../assets/images/brands/konicaminolta.webp";
+import kyocera from "../../assets/images/brands/kyocera.webp";
+import nec from "../../assets/images/brands/nec.webp";
+import sharp from "../../assets/images/brands/sharp.webp";
+import toshiba from "../../assets/images/brands/toshiba.webp";
+import xerox from "../../assets/images/brands/xerox.webp";
+import home_copier from "../../assets/images/home/copier.webp";
+import home_tech from "../../assets/images/home/technician.webp";
+import about_customer from "../../assets/images/home/customer.webp";
+import oldpic from "../../assets/images/home/oldpic.webp";
 import * as Scroll from "react-scroll";
 import Fade from "react-reveal/Fade";
 
@@ -77,13 +77,14 @@ function HomePage() {
                   src={home_copier}
                   className="info-section-img"
                   alt="copy img"
+                  loading="lazy"
                 ></img>
               </div>
             </Fade>
             <Fade right>
               <div className="info-section-text-div">
                 <h2>Sales & Lease</h2>
-                <ul classname="info-section-list">
+                <ul className="info-section-list">
                   <li>New & refurbished multi-function printers (MFPs).</li>
                   <li>Color or Monochrome options</li>
                   <li>Delivery & installation within the Tri-state area</li>
@@ -104,7 +105,7 @@ function HomePage() {
             <Fade left>
               <div className="info-section-text-div">
                 <h2>Repairs, Maintenance, & Supplies</h2>
-                <ul classname="info-section-list">
+                <ul className="info-section-list">
                   <li>On-site troubleshooting & repairs</li>
                   <li>Printer & Scanner set up for Windows & Mac</li>
                   <li>Networking troubleshooting</li>
@@ -119,6 +120,7 @@ function HomePage() {
                   src={home_tech}
                   className="info-section-img"
                   alt="copy img"
+                  loading="lazy"
                 ></img>
               </div>{" "}
             </Fade>
@@ -129,25 +131,16 @@ function HomePage() {
         <div className="brands-section">
           <h1>Brands We Support</h1>
           <div className="brand-imgs-section">
-            <img src={canon} className="brand-imgs" alt="brand img"></img>
-            <img src={kyocera} className="brand-imgs" alt="brand img"></img>
-            <img src={sharp} className="brand-imgs" alt="brand img"></img>
-            <img
-              src={konicaminolta}
-              className="brand-imgs"
-              alt="brand img"
-            ></img>
-            <img src={ricoh} className="brand-imgs" alt="brand img"></img>
-            <img src={nec} className="brand-imgs" alt="brand img"></img>
-            <img src={brother} className="brand-imgs" alt="brand img"></img>
-            <img
-              src={hp}
-              className="brand-imgs"
-              id="brand-img-hp"
-              alt="brand img"
-            ></img>
-            <img src={xerox} className="brand-imgs" alt="brand img"></img>
-            <img src={toshiba} className="brand-imgs" alt="brand img"></img>
+            <img src={canon} className="brand-imgs" alt="Canon" loading="lazy"></img>
+            <img src={kyocera} className="brand-imgs" alt="Kyocera" loading="lazy"></img>
+            <img src={sharp} className="brand-imgs" alt="Sharp" loading="lazy"></img>
+            <img src={konicaminolta} className="brand-imgs" alt="Konica Minolta" loading="lazy"></img>
+            <img src={ricoh} className="brand-imgs" alt="Ricoh" loading="lazy"></img>
+            <img src={nec} className="brand-imgs" alt="NEC" loading="lazy"></img>
+            <img src={brother} className="brand-imgs" alt="Brother" loading="lazy"></img>
+            <img src={hp} className="brand-imgs" id="brand-img-hp" alt="HP" loading="lazy"></img>
+            <img src={xerox} className="brand-imgs" alt="Xerox" loading="lazy"></img>
+            <img src={toshiba} className="brand-imgs" alt="Toshiba" loading="lazy"></img>
           </div>
         </div>
       </Fade>
@@ -168,6 +161,7 @@ function HomePage() {
                 src={oldpic}
                 className="info-section-img"
                 alt="copy img"
+                loading="lazy"
               ></img>
             </div>
           </Fade>
@@ -202,6 +196,7 @@ function HomePage() {
                 src={about_customer}
                 className="info-section-img"
                 alt="copy img"
+                loading="lazy"
               ></img>
             </div>
           </Fade>
