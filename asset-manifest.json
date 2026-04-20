@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.98e15d7b.css",
-    "main.js": "/static/js/main.159ba6c0.js",
+    "main.css": "/static/css/main.91dd2621.css",
+    "main.js": "/static/js/main.44df5855.js",
     "static/js/453.bffbb5f6.chunk.js": "/static/js/453.bffbb5f6.chunk.js",
     "static/media/mx_m4051_full_beauty.png": "/static/media/mx_m4051_full_beauty.63c0a94f29db63562ee4.png",
     "static/media/mx_m4051_full_front.png": "/static/media/mx_m4051_full_front.53c59978f0cd9f931e3f.png",
@@ -112,17 +112,16 @@
     "static/media/toshiba.png": "/static/media/toshiba.47d28de99e2960deecd5.png",
     "static/media/sharp.png": "/static/media/sharp.3f2a608a47bd21294c83.png",
     "static/media/Questrial-Regular.woff": "/static/media/Questrial-Regular.8cc09bc266d73e6dc8c8.woff",
-    "static/media/logoFinalAnimation.svg": "/static/media/logoFinalAnimation.71a4a2fe40e511514305f47212f22393.svg",
     "static/media/Questrial-Regular.woff2": "/static/media/Questrial-Regular.e289d2a0afe01bc4110f.woff2",
     "static/media/kyocera.png": "/static/media/kyocera.5e2c2741fa8199d172ff.png",
     "static/media/brother.png": "/static/media/brother.13b4371edbbe15f9a531.png",
     "index.html": "/index.html",
-    "main.98e15d7b.css.map": "/static/css/main.98e15d7b.css.map",
-    "main.159ba6c0.js.map": "/static/js/main.159ba6c0.js.map",
+    "main.91dd2621.css.map": "/static/css/main.91dd2621.css.map",
+    "main.44df5855.js.map": "/static/js/main.44df5855.js.map",
     "453.bffbb5f6.chunk.js.map": "/static/js/453.bffbb5f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98e15d7b.css",
-    "static/js/main.159ba6c0.js"
+    "static/css/main.91dd2621.css",
+    "static/js/main.44df5855.js"
   ]
 }
