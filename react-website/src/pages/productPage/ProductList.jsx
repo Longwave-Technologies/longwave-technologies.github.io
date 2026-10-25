@@ -1,7 +1,13 @@
 import { useState } from "react";
 import "./ProductList.css";
 
-const images = require.context("../../assets/images/products", true);
+// Product images keyed by their path in copierInfo.json (e.g. "./kyocera/MA2000w.webp").
+const imageUrls = import.meta.glob("../../assets/images/products/**/*.webp", {
+  eager: true,
+  import: "default",
+});
+const images = (imagePath) =>
+  imageUrls[imagePath.replace("./", "../../assets/images/products/")];
 
 const ProductList = ({ products, updatePopup }) => {
   const [selectedProduct, setSelectedProduct] = useState(null);

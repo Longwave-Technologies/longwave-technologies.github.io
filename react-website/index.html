@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta property="og:title" content="Longwave Technologies" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://copiersys.com/thumbnail.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta
+      name="description"
+      content="Longwave Technologies provides copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, and more."
+    />
+    <meta
+      name="google-site-verification"
+      content="Mc9KOkqCQgAjVlIeWP0yPk_iViDcyBEgd7tUYURWkwE"
+    />
+    <!--Generate verification: https://search.google.com/search-console/welcome?hl=en&utm_source=wmx&utm_medium=deprecation-pane&utm_content=home  -->
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Longwave Technologies</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location));
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
