@@ -168,7 +168,7 @@ ${list(services.map((s) => `<strong>${escapeHtml(s.name)}</strong>: ${escapeHtml
 <h2>Areas We Serve</h2>
 <p>${escapeHtml(areas.join(", "))}</p>
 <h2>Frequently Asked Questions</h2>
-${faq.map((item) => `<h3>${escapeHtml(item.q)}</h3><p>${escapeHtml(item.a)}</p>`).join("")}
+${faq.map((item) => `<details><summary><h3>${escapeHtml(item.q)}</h3></summary><p>${escapeHtml(item.a)}</p></details>`).join("")}
 <h2>Get a Quote</h2>
 <p>Call ${telLink}, email ${mailLink}, or <a href="/contact">use our contact form</a>.</p>`,
 

@@ -208,10 +208,12 @@ function HomePage() {
           <div className="faq-list">
             <h2>Frequently Asked Questions</h2>
             {seo.faq.map((item) => (
-              <div className="faq-item" key={item.q}>
-                <h3>{item.q}</h3>
+              <details className="faq-item" key={item.q}>
+                <summary>
+                  <h3>{item.q}</h3>
+                </summary>
                 <p>{item.a}</p>
-              </div>
+              </details>
             ))}
           </div>
         </Fade>
