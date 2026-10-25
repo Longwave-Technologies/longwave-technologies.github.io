@@ -1,0 +1,117 @@
+{
+  "siteUrl": "https://copiersys.com",
+  "business": {
+    "name": "Longwave Technologies",
+    "legalName": "Longwave Technologies L.I. Inc.",
+    "summary": "Longwave Technologies sells, leases, and repairs new and affordable used (refurbished) black & white and color copiers and multifunction printers for small and medium-sized businesses in New York City, Long Island, and Westchester. We also supply toner and copier parts. Family business serving the Tri-State area since 1991.",
+    "foundingYear": "1991",
+    "phone": "(516) 663-0968",
+    "phoneE164": "+15166630968",
+    "email": "longwavetechinfo@gmail.com",
+    "address": {
+      "streetAddress": "49 S",
+      "addressLocality": "Hempstead",
+      "addressRegion": "NY",
+      "postalCode": "11550",
+      "addressCountry": "US"
+    },
+    "hours": [
+      {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
+    "hoursText": "Monday–Friday, 9am–5pm",
+    "brands": [
+      "Kyocera",
+      "Sharp",
+      "Konica Minolta",
+      "Toshiba",
+      "Canon",
+      "Ricoh",
+      "Xerox",
+      "HP",
+      "Brother",
+      "NEC"
+    ]
+  },
+  "services": [
+    {
+      "name": "Copier sales (new and used)",
+      "description": "New and affordable used (refurbished) black & white and color copiers and multifunction printers (MFPs) that print, copy, scan, and fax."
+    },
+    {
+      "name": "Copier leasing and rentals",
+      "description": "Copier leases and flexible equipment rental agreements, so you don't have to pay the full price up front."
+    },
+    {
+      "name": "Copier repair and maintenance",
+      "description": "On-site copier and printer repair, remote troubleshooting, and maintenance-only service contracts for Kyocera, Sharp, Konica Minolta, Toshiba, Canon, Ricoh, Xerox, HP, and more."
+    },
+    {
+      "name": "Toner and copier supplies",
+      "description": "Original and compatible (generic) toner cartridges, parts, and supplies."
+    },
+    {
+      "name": "Delivery, installation, and setup",
+      "description": "Delivery and installation across the Tri-State area, plus network, printer, and scanner setup for Windows and Mac."
+    }
+  ],
+  "areas": [
+    "Manhattan",
+    "Brooklyn",
+    "Queens",
+    "The Bronx",
+    "Staten Island",
+    "Nassau County",
+    "Suffolk County",
+    "Westchester County"
+  ],
+  "faq": [
+    {
+      "q": "Do you sell used copiers?",
+      "a": "Yes. Alongside new machines, we sell affordable used (refurbished) black & white and color copiers from Kyocera, Sharp, Konica Minolta, Toshiba, and Canon. Refurbished copiers are a good fit for small businesses that want a reliable office copier on a budget."
+    },
+    {
+      "q": "Can I lease a copier instead of buying one?",
+      "a": "Yes. We offer copier leases and flexible rental agreements for both new and used machines. Call (516) 663-0968 or use our contact form for a quote."
+    },
+    {
+      "q": "Which copier brands do you repair?",
+      "a": "We repair and maintain Kyocera, Sharp, Konica Minolta, Toshiba, Canon, Ricoh, Xerox, HP, Brother, and NEC copiers and printers, with on-site repairs, remote troubleshooting, and maintenance-only service contracts."
+    },
+    {
+      "q": "Do you sell toner and copier supplies?",
+      "a": "Yes. We supply original and compatible (generic) toner cartridges and parts for the copiers we sell and service."
+    },
+    {
+      "q": "What areas do you serve?",
+      "a": "We serve businesses in all five NYC boroughs (Manhattan, Brooklyn, Queens, the Bronx, and Staten Island), Long Island (Nassau and Suffolk counties), and Westchester County, with delivery and installation included."
+    },
+    {
+      "q": "How long has Longwave Technologies been in business?",
+      "a": "Since 1991. We started out repairing copiers for local businesses and have served many of our clients for over 20 years."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call (516) 663-0968, email longwavetechinfo@gmail.com, or fill out the form on our contact page."
+    }
+  ],
+  "pages": {
+    "/": {
+      "title": "Copier Sales, Leasing & Repair in NYC & Long Island | Longwave",
+      "description": "New & affordable used black & white and color copiers for NYC, Long Island & Westchester businesses. Sales, leasing, repair & toner since 1991. Call (516) 663-0968."
+    },
+    "/products": {
+      "file": "products.html",
+      "title": "New & Used Copiers for Sale or Lease | Longwave Technologies",
+      "description": "Browse new and refurbished black & white and color copiers from Kyocera, Sharp, Konica Minolta, Toshiba, and Canon. Buy or lease, with delivery across NYC & Long Island."
+    },
+    "/contact": {
+      "file": "contact.html",
+      "title": "Get a Copier Quote: Sales, Lease & Repair | Longwave Technologies",
+      "description": "Request a quote for copier sales, leasing, repair, or toner. Serving NYC, Long Island, and Westchester. Call (516) 663-0968 or email longwavetechinfo@gmail.com."
+    }
+  }
+}

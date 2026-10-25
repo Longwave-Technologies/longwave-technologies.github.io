@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
+import seo from "../../routes/seo.json";
 import "../../styles/styles.css";
 import "./ProductPage.css";
 import Fade from "react-reveal/Fade";
 import ProductList from "./ProductList";
 import CopierInfo from "../../assets/images/products/copierInfo.json";
+
+const meta = seo.pages["/products"];
+const canonical = seo.siteUrl + "/products";
 
 function ProductPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -26,11 +30,12 @@ function ProductPage() {
   return (
     <div className="content">
       <Helmet>
-        <title>Copiers & Printers for Sale | Longwave Technologies</title>
-        <meta name="description" content="Browse our catalog of new and refurbished copiers and printers from Canon, Kyocera, Sharp, Toshiba, and more. Sales, leasing, and service on Long Island." />
-        <meta property="og:title" content="Copiers & Printers for Sale | Longwave Technologies" />
-        <meta property="og:description" content="Browse our catalog of new and refurbished copiers and printers from Canon, Kyocera, Sharp, Toshiba, and more. Sales, leasing, and service on Long Island." />
-        <link rel="canonical" href="https://longwave-technologies.github.io/products" />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:url" content={canonical} />
+        <link rel="canonical" href={canonical} />
       </Helmet>
       <Fade>
         <div className="product-container-parent">

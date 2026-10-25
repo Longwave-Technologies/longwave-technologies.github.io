@@ -27,7 +27,7 @@ const ProductList = ({ products, updatePopup }) => {
               src={images(
                 selectedProduct[Object.keys(selectedProduct)].image_path
               )}
-              alt="pic"
+              alt={`${selectedProduct[Object.keys(selectedProduct)].brand} ${selectedProduct[Object.keys(selectedProduct)].modelnum} copier`}
               loading="lazy"
             />
           </div>

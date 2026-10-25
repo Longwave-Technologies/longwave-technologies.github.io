@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/logoFinal.png";
 import "./Header.css";
-import { useNavigate, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import "../../styles/styles.css";
 import * as Scroll from "react-scroll";
 import Fade from "react-reveal/Fade";
@@ -35,13 +35,9 @@ function Header({ tabsData }) {
         <nav aria-label="Main navigation">
           <ul className="tabs">
             <li>
-              <button
-                className="logo-btn"
-                onClick={() => navigate("/")}
-                aria-label="Go to home page"
-              >
+              <Link className="logo-btn" to="/" aria-label="Go to home page">
                 <img src={logo} alt="Longwave Technologies" className="logo" />
-              </button>
+              </Link>
             </li>
             <li>
               <button
@@ -54,13 +50,9 @@ function Header({ tabsData }) {
             </li>
             {tabsData.map((tab) => (
               <li key={tab.label}>
-                <button
-                  className="tab"
-                  onClick={() => navigate(tab.path)}
-                  aria-label={`Go to ${tab.label} page`}
-                >
+                <Link className="tab" to={tab.path}>
                   {tab.label}
-                </button>
+                </Link>
               </li>
             ))}
           </ul>

@@ -1,18 +1,23 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import seo from "../../routes/seo.json";
 import "../../styles/styles.css";
 import "./ContactPage.css";
 import Fade from "react-reveal/Fade";
+
+const meta = seo.pages["/contact"];
+const canonical = seo.siteUrl + "/contact";
 
 function ContactPage() {
   return (
     <div className="content">
       <Helmet>
-        <title>Contact Us | Longwave Technologies</title>
-        <meta name="description" content="Get in touch with Longwave Technologies for copier sales, leasing, and repair on Long Island. Call (516)-663-0968 or submit our contact form." />
-        <meta property="og:title" content="Contact Us | Longwave Technologies" />
-        <meta property="og:description" content="Get in touch with Longwave Technologies for copier sales, leasing, and repair on Long Island. Call (516)-663-0968 or submit our contact form." />
-        <link rel="canonical" href="https://longwave-technologies.github.io/contact" />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:url" content={canonical} />
+        <link rel="canonical" href={canonical} />
       </Helmet>
       <Fade bottom>
         <div className="contactForm">
@@ -27,8 +32,9 @@ function ContactPage() {
             <h3 className="contact-description">
               To find the best solution for you. <br></br>
               <br></br>
-              Submit the form below <br></br>or contact us at: <br></br>☎
-              (516)-663-0968 <br></br>✉ longwavetechinfo@gmail.com
+              Submit the form below <br></br>or contact us at: <br></br>☎{" "}
+              <a href="tel:+15166630968">(516) 663-0968</a> <br></br>✉{" "}
+              <a href="mailto:longwavetechinfo@gmail.com">longwavetechinfo@gmail.com</a>
             </h3>
             <div className="form_row_with_grid">
               <div className="form-field">

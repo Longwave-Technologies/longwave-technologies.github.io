@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import seo from "../../routes/seo.json";
 import "../../styles/styles.css";
 import "./HomePage.css";
 import { Link, useNavigate } from "react-router-dom";
@@ -19,6 +20,9 @@ import oldpic from "../../assets/images/home/oldpic.webp";
 import * as Scroll from "react-scroll";
 import Fade from "react-reveal/Fade";
 
+const meta = seo.pages["/"];
+const canonical = seo.siteUrl + "/";
+
 function HomePage() {
   const Element = Scroll.Element;
   const navigate = useNavigate();
@@ -29,35 +33,12 @@ function HomePage() {
   return (
     <div className="content">
       <Helmet>
-        <title>Longwave Technologies | Copier & Printer Sales and Service</title>
-        <meta name="description" content="Longwave Technologies provides copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, and more." />
-        <meta property="og:title" content="Longwave Technologies | Copier & Printer Sales and Service" />
-        <meta property="og:description" content="Longwave Technologies provides copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, and more." />
-        <link rel="canonical" href="https://longwave-technologies.github.io/" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Longwave Technologies",
-          "description": "Copier and printer sales, leasing, and repair services on Long Island. Authorized dealer for Canon, Kyocera, Sharp, Toshiba, Ricoh, and more.",
-          "url": "https://longwave-technologies.github.io",
-          "telephone": "+15166630968",
-          "email": "longwavetechinfo@gmail.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "49 S",
-            "addressLocality": "Hempstead",
-            "addressRegion": "NY",
-            "postalCode": "11550",
-            "addressCountry": "US"
-          },
-          "areaServed": {
-            "@type": "AdministrativeArea",
-            "name": "Long Island, New York"
-          },
-          "sameAs": ["https://longwave-technologies.github.io"],
-          "priceRange": "$$",
-          "openingHours": "Mo-Fr 09:00-17:00"
-        })}</script>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:url" content={canonical} />
+        <link rel="canonical" href={canonical} />
       </Helmet>
       <Fade>
         <div className="parallax-container">
@@ -76,7 +57,7 @@ function HomePage() {
       <Element name="services-anchor" id="services-anchor">
         <div className="information-section" id="services-section">
           <Fade bottom>
-            <h1>Services</h1>
+            <h1>Copier Sales, Leasing & Repair Services</h1>
           </Fade>
           <div className="information-section-grid">
             <Fade left>
@@ -91,13 +72,13 @@ function HomePage() {
             </Fade>
             <Fade right>
               <div className="info-section-text-div">
-                <h2>Sales & Lease</h2>
+                <h2>Copier Sales & Leasing</h2>
                 <ul className="info-section-list">
-                  <li>New & refurbished multi-function printers (MFPs).</li>
-                  <li>Color or Monochrome options</li>
+                  <li>New & affordable used (refurbished) copiers and multi-function printers (MFPs)</li>
+                  <li>Black & white or color copiers</li>
                   <li>Delivery & installation within the Tri-state area</li>
                   <li>Flexible equipment rental agreements</li>
-                  <li>Original & generic parts and toner cartridges</li>
+                  <li>Copier supplies: original & generic toner cartridges and parts</li>
                   <li>
                     Security features, Fax Machine, and additional add-on
                     options
@@ -112,7 +93,7 @@ function HomePage() {
             </Fade>
             <Fade left>
               <div className="info-section-text-div">
-                <h2>Repairs, Maintenance, & Supplies</h2>
+                <h2>Copier Repair, Maintenance, & Supplies</h2>
                 <ul className="info-section-list">
                   <li>On-site troubleshooting & repairs</li>
                   <li>Printer & Scanner set up for Windows & Mac</li>
@@ -210,10 +191,35 @@ function HomePage() {
           </Fade>
         </div>
       </div>
+      <div className="information-section" id="areas-served">
+        <Fade bottom>
+          <div>
+            <h2>Areas We Serve</h2>
+            <p className="areas-text">
+              Copier sales, leasing, and repair for small and medium-sized
+              businesses across the New York Tri-State area:{" "}
+              {seo.areas.join(", ")}.
+            </p>
+          </div>
+        </Fade>
+      </div>
+      <div className="information-section" id="faq">
+        <Fade bottom>
+          <div className="faq-list">
+            <h2>Frequently Asked Questions</h2>
+            {seo.faq.map((item) => (
+              <div className="faq-item" key={item.q}>
+                <h3>{item.q}</h3>
+                <p>{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </Fade>
+      </div>
       <Fade bottom>
         <Link
           className="button"
-          to="/Contact"
+          to="/contact"
           onClick={(e) => delayAndGo(e, "/contact")}
         >
           <div id="fpc_effect-back">

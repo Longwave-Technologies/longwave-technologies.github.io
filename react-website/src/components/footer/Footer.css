@@ -19,6 +19,16 @@
   color: gray;
 }
 
+.footer-nap {
+  font-style: normal;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.footer-nap a {
+  color: inherit;
+}
+
 .logoFooter-btn {
   background: none;
   border: none;
